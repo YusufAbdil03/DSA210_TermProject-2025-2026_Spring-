@@ -54,3 +54,17 @@ The project integrates financial performance data with digital engagement metric
 * A strong negative correlation is expected between "Championship Point Gaps" and "Digital Search Interest."
 * It is anticipated that financial dominance by 1 or 2 teams leads to a decline in audience engagement from neutral fans.
 * The study expects to show that "Balanced Leagues" are more resilient to digital interest drops compared to "Dominant Leagues" leagues.
+
+---
+
+## Progress Report 1: Preliminary Analysis & Findings
+
+As of April 2026, the initial data collection and exploratory data analysis (EDA) phases have been completed. The relationship between the **Financial Gap** (market value difference between the top 2 teams) and **Digital Engagement** (Google Trends interest) has been visualized across three distinct league groups.
+
+### Key Observations:
+* **Group 1 (Balanced - ENG & ITA):** These leagues demonstrate high "global brand resilience." Even as financial gaps fluctuate, Google Trends interest remains stable or grows, suggesting that elite-level competition maintains fan engagement regardless of domestic disparity.
+* **Group 2 (Dominant - FRA & GER):** These leagues show the highest level of financial polarization. Preliminary charts indicate a "saturation effect"; despite massive financial growth at the top, digital interest does not follow a linear increase, potentially confirming that lack of title race excitement limits growth.
+* **Group 3 (Top-Heavy - TUR & ESP):** **This group provides the strongest initial support for the core hypothesis.** In the Turkish Süper Lig and post-2021 La Liga, as the market value gap between the top 2 powerhouses and the rest of the league widened, a visible stagnation or downward trend in digital engagement was observed.
+
+### Preliminary Conclusion:
+Initial visualizations confirm that the impact of financial disparity on fan engagement is context-dependent. While "Global Giants" (Group 1) are resilient, leagues that rely heavily on domestic competition (Group 3) show a noticeable negative correlation between financial gaps and fan interest. These trends will be statistically modeled and tested in the final phase of the project.
