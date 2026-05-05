@@ -57,14 +57,35 @@ The project integrates financial performance data with digital engagement metric
 
 ---
 
-## Progress Report 1: Preliminary Analysis & Findings
+## Progress Report 1: Statistical Analysis & Hypothesis Testing
 
-As of April 2026, the initial data collection and exploratory data analysis (EDA) phases have been completed. The relationship between the **Financial Gap** (market value difference between the top 2 teams) and **Digital Engagement** (Google Trends interest) has been visualized across three distinct league groups.
+In this phase, we moved beyond exploratory visualizations and applied rigorous statistical testing to evaluate the relationship between the Financial Gap (market value difference between the top 2 teams) and Digital Engagement across the six leagues.
 
-### Key Observations:
-* **Group 1 (Balanced - ENG & ITA):** These leagues demonstrate high "global brand resilience." Even as financial gaps fluctuate, Google Trends interest remains stable or grows, suggesting that elite-level competition maintains fan engagement regardless of domestic disparity.
-* **Group 2 (Dominant - FRA & GER):** These leagues show the highest level of financial polarization. Preliminary charts indicate a "saturation effect"; despite massive financial growth at the top, digital interest does not follow a linear increase, potentially confirming that lack of title race excitement limits growth.
-* **Group 3 (Top-Heavy - TUR & ESP):** **This group provides the strongest initial support for the core hypothesis.** In the Turkish Süper Lig and post-2021 La Liga, as the market value gap between the top 2 powerhouses and the rest of the league widened, a visible stagnation or downward trend in digital engagement was observed.
+### Methodology:
+* **Correlation Analysis:** We conducted Pearson Correlation tests individually for each league to measure the linear relationship between financial disparity and search interest. A significance level of $\alpha = 0.05$ was established.
+* **Group Comparison (ANOVA):** To test the core hypothesis regarding league structures, we grouped the leagues into three categories (Balanced, Dominant, Top-Heavy) and performed a One-Way ANOVA test to determine if the mean digital interest significantly differed across these groups.
 
-### Preliminary Conclusion:
-Initial visualizations confirm that the impact of financial disparity on fan engagement is context-dependent. While "Global Giants" (Group 1) are resilient, leagues that rely heavily on domestic competition (Group 3) show a noticeable negative correlation between financial gaps and fan interest. These trends will be statistically modeled and tested in the final phase of the project.
+### Key Findings & Results:
+* **Rejection of the Null Hypothesis:** The ANOVA test yielded a highly significant result ($p\text{-value} = 0.0066$, which is $< 0.05$). This allowed us to confidently reject the null hypothesis ($H_0$), mathematically proving that the structural type of a league (how competitive it is) has a statistically significant impact on its average global engagement.
+* **League-Specific Nuances:** The Pearson tests revealed that the impact of financial disparity is highly context-dependent. While Top-Heavy leagues (like the Süper Lig) showed negative correlations indicating stagnation when the gap widened, Balanced and Dominant leagues exhibited different behaviors, proving that the relationship is not universally linear.
+
+---
+
+## Progress Report 2: Machine Learning & Predictive Modeling
+
+To deeply investigate whether financial disparity can accurately predict digital interest, a comprehensive machine learning pipeline was developed.
+
+### Methodology & Data Preparation:
+* **Scaling:** The dataset was normalized using `MinMaxScaler` to ensure proper functionality for distance-based algorithms.
+* **Validation:** A `Train-Test Split (80/20)` was implemented to evaluate the models' generalization performance on unseen data.
+
+### Model Selection:
+Three algorithms with varying complexities were evaluated to capture different types of underlying patterns:
+1. **Linear Regression:** To test for simple, global linear trends.
+2. **K-Nearest Neighbors (KNN):** To capture local similarities among leagues with comparable financial structures.
+3. **Decision Tree Regressor:** To account for non-linear, threshold-based jumps in popularity.
+
+### Results & Interpretation:
+* **Linear Underfitting:** The Linear Regression model yielded negative R-Squared scores, failing to capture the high variance of the data. This mathematically proves that global audience engagement is not a simple straight-line function of the financial gap.
+* **Non-Linear Dynamics:** The Decision Tree and KNN models adapted much better to the dataset. The step-wise structure of the Decision Tree predictions illustrates that audience interest operates on specific financial thresholds (e.g., the sudden emergence of a "super club" or a critical gap limit) rather than continuous linear scaling.
+* **Conclusion:** The ML analysis confirms that while financial disparity is an influential factor, predicting digital interest solely through the financial gap is insufficient due to the complex, non-linear nature of the global football ecosystem.
