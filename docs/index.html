@@ -53,32 +53,32 @@
             <h3>1. Global Analysis: One-Way ANOVA</h3>
             <p><strong>Test Results:</strong><br> F-Statistic: 5.4772 <br> P-value: 0.0066</p>
             <p><strong>Decision:</strong> Since the p-value (0.0066) is significantly lower than alpha (0.05), we strongly <strong>reject the null hypothesis (H0)</strong>. This provides strong statistical evidence that the structural differences between these league groups lead to significantly different levels of global digital engagement.</p>
-            <img src="anova.png" alt="ANOVA Results">
+            <img src="dsa-ht8.png" alt="ANOVA Results">
 
             <h3>2. Overall Correlation Overview</h3>
             <p>Before diving into the micro-dynamics of each league, we established the baseline correlation between financial disparities and fan engagement across our entire dataset.</p>
-            <img src="correlation.png" alt="Correlation Overview">
+            <img src="dsa-ht9.png" alt="Correlation Overview">
 
             <h3>3. League-Specific Trends</h3>
             <p>To truly understand the socio-economic impact, we isolated the financial difference between the top 2 clubs and compared it against Google Interest for each of the 6 leagues.</p>
             
             <h4>English Premier League</h4>
-            <img src="premier_league.png" alt="Premier League Analysis">
+            <img src="dsa-ht1.png" alt="Premier League Analysis">
             
             <h4>Spanish La Liga</h4>
-            <img src="la_liga.png" alt="La Liga Analysis">
+            <img src="dsa-ht3.png" alt="La Liga Analysis">
             
             <h4>Italian Serie A</h4>
-            <img src="serie_a.png" alt="Serie A Analysis">
+            <img src="dsa-ht2.png" alt="Serie A Analysis">
             
             <h4>German Bundesliga</h4>
-            <img src="bundesliga.png" alt="Bundesliga Analysis">
+            <img src="dsa-ht6.png" alt="Bundesliga Analysis">
             
             <h4>French Ligue 1</h4>
-            <img src="ligue_1.png" alt="Ligue 1 Analysis">
+            <img src="dsa-ht5.png" alt="Ligue 1 Analysis">
             
             <h4>Turkish Süper Lig</h4>
-            <img src="super_lig.png" alt="Süper Lig Analysis">
+            <img src="dsa-ht4.png" alt="Süper Lig Analysis">
         </div>
 
         <div id="ml" class="section">
@@ -86,15 +86,15 @@
             
             <h3>1. Initial Attempt: Predicting Digital Interest</h3>
             <p>Our first model attempted to use the financial gap to predict global digital interest. As seen in our initial results, this approach yielded negative R² scores. This empirically proved that global digital popularity is influenced by complex, external factors.</p>
-            <img src="ml_initial.png" alt="Initial ML Results">
+            <img src="dsa-ml1.png" alt="Initial ML Results">
             
             <h3>2. Pivot & Optimization: Predicting Stadium Attendance</h3>
             <p>Based on project feedback, we shifted our target variable. Our new objective was to predict the <strong>Average Stadium Attendance</strong> using Total Market Value and Google Interest.</p>
-            <img src="ml_tree.png" alt="Decision Tree Structure">
+            <img src="dsa-ml2.png" alt="Decision Tree Structure">
             
             <h3>3. Final Results</h3>
             <p>This alternative model demonstrated remarkable predictive power. Our <strong>Decision Tree Regressor</strong> perfectly captured the non-linear relationships in the data, achieving an impressive <strong>R² Score of 0.8143</strong>.</p>
-            <img src="ml_final.png" alt="Final Prediction Results">
+            <img src="dsa-ml3.png" alt="Final Prediction Results">
         </div>
 
         <div class="footer">
