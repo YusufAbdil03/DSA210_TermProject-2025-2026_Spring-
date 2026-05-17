@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Financial Disparity | DSA210</title>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; background-color: #f8f9fa; color: #333; }
+        
+        /* Sol Menü (Sidebar) */
+        .sidebar { width: 260px; background-color: #1a252f; color: white; height: 100vh; position: fixed; padding-top: 20px; overflow-y: auto; }
+        .sidebar h2 { text-align: center; font-size: 1.2rem; border-bottom: 1px solid #2c3e50; padding-bottom: 15px; margin: 0 20px 20px; color: #1abc9c; }
+        .sidebar a { display: block; color: #bdc3c7; padding: 15px 20px; text-decoration: none; font-weight: bold; transition: 0.3s; cursor: pointer; border-left: 4px solid transparent; }
+        .sidebar a:hover, .sidebar a.active { background-color: #2c3e50; color: white; border-left: 4px solid #1abc9c; }
+        
+        /* İçerik Kısmı */
+        .content { margin-left: 260px; padding: 40px; width: 100%; max-width: 900px; }
+        .section { display: none; background: white; padding: 35px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        .section.active { display: block; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #1abc9c; padding-bottom: 10px; margin-top: 0; }
+        h3 { color: #34495e; margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        p { line-height: 1.6; font-size: 1.05rem; }
+        
+        /* Fotoğraf Ayarları */
+        img { width: 100%; border-radius: 8px; margin-top: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        
+        .footer { margin-top: 40px; text-align: center; color: #7f8c8d; font-size: 0.9rem; padding-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>DSA210 Project</h2>
+        <a onclick="showSection('home')" class="tab-link active" id="tab-home">🏠 Home</a>
+        <a onclick="showSection('stats')" class="tab-link" id="tab-stats">📊 Statistical Analysis</a>
+        <a onclick="showSection('ml')" class="tab-link" id="tab-ml">🤖 Machine Learning</a>
+    </div>
+
+    <div class="content">
+        
+        <div id="home" class="section active">
+            <h1>Football Financial Disparity</h1>
+            <p>Welcome to the official documentation site for the DSA210 Term Project (2025-2026 Spring).</p>
+            <h3>Project Motivation</h3>
+            <p>In modern football, money talks. But does it kill the passion? This project investigates whether the growing financial gap between the top clubs and the rest of the league negatively impacts global and physical fan engagement.</p>
+            <p>By utilizing comprehensive datasets, we analyzed the "Top 5" European leagues and the Turkish Süper Lig over a 10-year period, combining financial market values with digital footprint (Google Trends) and physical stadium attendance data.</p>
+        </div>
+
+        <div id="stats" class="section">
+            <h1>Statistical Analysis & Hypothesis Testing</h1>
+            <p>In this section, we apply rigorous statistical methods to test our core hypothesis: Does the financial disparity within a league significantly impact its global digital popularity?</p>
+            
+            <h3>1. Global Analysis: One-Way ANOVA</h3>
+            <p><strong>Test Results:</strong><br> F-Statistic: 5.4772 <br> P-value: 0.0066</p>
+            <p><strong>Decision:</strong> Since the p-value (0.0066) is significantly lower than alpha (0.05), we strongly <strong>reject the null hypothesis (H0)</strong>. This provides strong statistical evidence that the structural differences between these league groups lead to significantly different levels of global digital engagement.</p>
+            <img src="anova.png" alt="ANOVA Results">
+
+            <h3>2. Overall Correlation Overview</h3>
+            <p>Before diving into the micro-dynamics of each league, we established the baseline correlation between financial disparities and fan engagement across our entire dataset.</p>
+            <img src="correlation.png" alt="Correlation Overview">
+
+            <h3>3. League-Specific Trends</h3>
+            <p>To truly understand the socio-economic impact, we isolated the financial difference between the top 2 clubs and compared it against Google Interest for each of the 6 leagues.</p>
+            
+            <h4>English Premier League</h4>
+            <img src="premier_league.png" alt="Premier League Analysis">
+            
+            <h4>Spanish La Liga</h4>
+            <img src="la_liga.png" alt="La Liga Analysis">
+            
+            <h4>Italian Serie A</h4>
+            <img src="serie_a.png" alt="Serie A Analysis">
+            
+            <h4>German Bundesliga</h4>
+            <img src="bundesliga.png" alt="Bundesliga Analysis">
+            
+            <h4>French Ligue 1</h4>
+            <img src="ligue_1.png" alt="Ligue 1 Analysis">
+            
+            <h4>Turkish Süper Lig</h4>
+            <img src="super_lig.png" alt="Süper Lig Analysis">
+        </div>
+
+        <div id="ml" class="section">
+            <h1>Machine Learning & Predictive Modeling</h1>
+            
+            <h3>1. Initial Attempt: Predicting Digital Interest</h3>
+            <p>Our first model attempted to use the financial gap to predict global digital interest. As seen in our initial results, this approach yielded negative R² scores. This empirically proved that global digital popularity is influenced by complex, external factors.</p>
+            <img src="ml_initial.png" alt="Initial ML Results">
+            
+            <h3>2. Pivot & Optimization: Predicting Stadium Attendance</h3>
+            <p>Based on project feedback, we shifted our target variable. Our new objective was to predict the <strong>Average Stadium Attendance</strong> using Total Market Value and Google Interest.</p>
+            <img src="ml_tree.png" alt="Decision Tree Structure">
+            
+            <h3>3. Final Results</h3>
+            <p>This alternative model demonstrated remarkable predictive power. Our <strong>Decision Tree Regressor</strong> perfectly captured the non-linear relationships in the data, achieving an impressive <strong>R² Score of 0.8143</strong>.</p>
+            <img src="ml_final.png" alt="Final Prediction Results">
+        </div>
+
+        <div class="footer">
+            Created by Yusuf | Sabancı University DSA210 Term Project (2025-2026 Spring)
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+            document.querySelectorAll('.tab-link').forEach(link => link.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+            document.getElementById('tab-' + sectionId).classList.add('active');
+            window.scrollTo(0,0);
+        }
+    </script>
+</body>
+</html>
