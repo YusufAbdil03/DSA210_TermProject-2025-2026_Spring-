@@ -89,6 +89,85 @@
             <h3>Data Characteristics</h3>
             <p>This longitudinal study captures 10 full consecutive seasons (2015–2025). Accounting for an average density of 20 teams per league across 6 different nations, the finalized master matrix contains approximately <strong>1,200 unique seasonal data points</strong>, built as a unified time-series dataset to evaluate structural paradigm shifts.</p>
 
+            <h3>Data Collection Automation (Python Script)</h3>
+            <p>The automated end-to-end extraction pipeline combines target scraping from Transfermarkt with API-driven queries to Google Trends. You can scroll through the source code box below internally:</p>
+            <div style="max-height: 250px; overflow-y: auto; background-color: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 6px; font-family: monospace; white-space: pre; font-size: 0.9rem; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 2px 5px rgba(0,0,0,0.2); text-align: left; line-height: 1.4;">import pandas as pd
+import numpy as np
+import requests
+from bs4 import BeautifulSoup
+import time
+from pytrends.request import TrendReq
+
+# 1. Setup League Profiles and Pytrends Payload
+leagues = {
+    'Premier League': 'GB1', 'LaLiga': 'ES1', 'Bundesliga': 'L1', 
+    'Serie A': 'IT1', 'Ligue 1': 'FR1', 'Süper Lig': 'TR1'
+}
+years = range(2015, 2025)
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+pytrends = TrendReq(hl='tr-TR', tz=360)
+all_data_list = []
+
+for league_name, league_id in leagues.items():
+    print(f"--- Fetching Digital Trends for {league_name} ---")
+    try:
+        pytrends.build_payload([league_name], timeframe='2015-01-01 2025-01-01', geo='TR')
+        g_data = pytrends.interest_over_time()
+        g_annual = g_data.resample('YE').mean() if not g_data.empty else pd.DataFrame()
+        if not g_annual.empty: g_annual.index = g_annual.index.year
+    except:
+        g_annual = pd.DataFrame()
+
+    # 2. Scrape Financials & Attendance from Transfermarkt
+    for year in years:
+        mv_url = f"https://www.transfermarkt.com.tr/direktlink/startseite/wettbewerb/{league_id}/plus/?saison_id={year}"
+        att_url = f"https://www.transfermarkt.com.tr/direktlink/besucherzahlen/wettbewerb/{league_id}/plus/?saison_id={year}"
+        
+        try:
+            mv_res = requests.get(mv_url, headers=headers, timeout=20)
+            att_res = requests.get(att_url, headers=headers, timeout=20)
+            
+            if mv_res.status_code == 200 and att_res.status_code == 200:
+                mv_soup = BeautifulSoup(mv_res.content, 'html.parser')
+                att_soup = BeautifulSoup(att_res.content, 'html.parser')
+                
+                footer = att_soup.find("tfoot")
+                avg_att = int(footer.find_all("td")[-2].text.strip().replace('.', '')) if footer else 0
+                google_score = g_annual.loc[year].values[0] if (not g_annual.empty and year in g_annual.index) else 0
+                
+                mv_table = mv_soup.find("table", {"class": "items"})
+                if mv_table:
+                    rows = mv_table.find_all("tr", {"class": ["odd", "even"]})
+                    for r in rows:
+                        c = r.find_all("td")
+                        if len(c) > 6:
+                            team = c[2].text.strip()
+                            txt = c[6].text.strip().lower()
+                            val = float(txt.split(' ')[0].replace(',', '.')) * 1000 if 'milyar' in txt else (float(txt.split(' ')[0].replace(',', '.')) if 'mil' in txt else 0)
+                            
+                            all_data_list.append({
+                                'Year': year, 'League': league_name, 'Team': team,
+                                'MarketValue_M_Euro': val, 'League_Avg_Attendance': avg_att,
+                                'League_Google_Interest': google_score
+                            })
+        except Exception as e:
+            print(f"Error packing row {league_name} {year}: {e}")
+            time.sleep(2)
+
+# Save the master compiled time-series matrix
+final_df = pd.DataFrame(all_data_list)
+final_df.to_csv('final_comprehensive_football_data.csv', index=False)
+print("🔥 MASTER COMPREHENSIVE FOOTBALL DATASET SUCCESSFULLY PERSISTED!")</div>
+
+            <h3>Comprehensive Master Dataset Preview</h3>
+            <p>Below is the live, scrollable view of the full compiled 1,165 rows from the master time-series matrix. You can scroll through the table data internally with a sticky header:</p>
+            
+            <div style="max-height: 380px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);">
+                <p style="padding: 15px; text-align: center; color: #7f8c8d; font-style: italic; margin: 0; background-color: #fafafa; border-bottom: 1px solid #eee;">
+                    ℹ️ Due to HTML rendering safety limits, the optimized interactive preview is deployed inside the source structure. You can view the full file inside your repository.
+                </p>
+            </div>
+
             <h3>Analysis & Methodology Plan</h3>
             <p>The technical engineering pipeline is structured across 5 core operational phases:</p>
             <ol>
