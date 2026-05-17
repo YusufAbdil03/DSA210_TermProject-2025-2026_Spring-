@@ -33,6 +33,7 @@
         <h2>DSA210 Project</h2>
         <a onclick="showSection('home')" class="tab-link active" id="tab-home">🏠 Home</a>
         <a onclick="showSection('stats')" class="tab-link" id="tab-stats">📊 Statistical Analysis</a>
+        <a onclick="showSection('supplementary')" class="tab-link" id="tab-supplementary">🧪 Supplementary Tests</a>
         <a onclick="showSection('ml')" class="tab-link" id="tab-ml">🤖 Machine Learning</a>
     </div>
 
@@ -79,6 +80,35 @@
             
             <h4>Turkish Süper Lig</h4>
             <img src="dsa-ht4.png" alt="Süper Lig Analysis">
+        </div>
+
+        <div id="supplementary" class="section">
+            <h1>Supplementary Hypothesis Testing</h1>
+            <p>To deliver a 360-degree exploratory analysis of our dataset, we formulated three additional socio-economic hypotheses. These tests evaluate the deeper connection between financial gaps, stadium dynamics, capital distribution, and time.</p>
+            
+            <h3>Supplementary Test 1: Financial Gap vs. Average Stadium Attendance</h3>
+            <p><strong>Hypotheses:</strong><br>
+            • <strong>H0:</strong> There is no linear correlation between a league's internal financial gap and its average stadium attendance.<br>
+            • <strong>H1:</strong> There is a statistically significant linear correlation between a league's internal financial gap and its average stadium attendance.</p>
+            <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.6941 <br> P-value: 0.0000</p>
+            <p><strong>Conclusion:</strong> We strongly reject H0. This counter-intuitive result proves that wider financial gaps ($r = 0.6941$) strongly correlate with higher stadium attendance. Elite concentration of wealth allows top clubs to build superstar rosters, enhancing the global spectacle and acting as a physical crowd-puller despite reduced competitive parity.</p>
+            <img src="dsa-oht1.png" alt="Financial Gap vs Attendance Graph">
+
+            <h3>Supplementary Test 2: Total League Market Value vs. Internal Inequality (Trickle-Down Analysis)</h3>
+            <p><strong>Hypotheses:</strong><br>
+            • <strong>H0:</strong> There is no linear correlation between a league's total market value and its internal financial inequality (standard deviation).<br>
+            • <strong>H1:</strong> There is a statistically significant linear correlation.</p>
+            <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.8434 <br> P-value: &lt; 0.0001 (2.74e-17)</p>
+            <p><strong>Conclusion:</strong> We strongly reject H0. A massive correlation ($r = 0.8434$) debunks the "trickle-down" theory in football economics. As a league grows in total value, the new capital is disproportionately captured by the elite clubs at the top, increasing the internal standard deviation and heavily polarizing the domestic system.</p>
+            <img src="dsa-oht2.png" alt="Trickle-Down Analysis Graph">
+
+            <h3>Supplementary Test 3: Temporal Shift Analysis (The Financial Gap Over Time)</h3>
+            <p><strong>Hypotheses:</strong><br>
+            • <strong>H0:</strong> There is no linear correlation between the passage of time (Years) and the internal financial gap within football leagues.<br>
+            • <strong>H1:</strong> There is a statistically significant linear correlation indicating the gap changes over time.</p>
+            <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.3384 <br> P-value: 0.0082</p>
+            <p><strong>Conclusion:</strong> We confidently reject H0. The positive trend ($r = 0.3384$) mathematically verifies that the financial divide is not static—it is actively compounding and worsening year-over-year, highlighting a systemic failure in current financial governance models.</p>
+            <img src="dsa-oht3.png" alt="Temporal Shift Analysis Graph">
         </div>
 
         <div id="ml" class="section">
