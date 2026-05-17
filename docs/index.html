@@ -20,6 +20,8 @@
         h1 { color: #2c3e50; border-bottom: 3px solid #1abc9c; padding-bottom: 10px; margin-top: 0; }
         h3 { color: #34495e; margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
         p { line-height: 1.6; font-size: 1.05rem; }
+        ul, ol { line-height: 1.8; font-size: 1.05rem; }
+        li { margin-bottom: 8px; }
         
         /* Fotoğraf Ayarları */
         img { width: 100%; border-radius: 8px; margin-top: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
@@ -40,11 +42,69 @@
     <div class="content">
         
         <div id="home" class="section active">
-            <h1>Football Financial Disparity</h1>
-            <p>Welcome to the official documentation site for the DSA210 Term Project (2025-2026 Spring).</p>
+            <h1>Competitive Balance and Fan Engagement in Football</h1>
+            <p style="font-size: 1.15rem; color: #7f8c8d; font-style: italic; margin-bottom: 30px;">
+                Official documentation site for the DSA210 Term Project (2025-2026 Spring).
+            </p>
+            
+            <h3>Overview</h3>
+            <p>This project aims to analyze the socio-economic impact of financial disparity in modern football. By examining the correlation between club expenditures and audience interest metrics, the study explores how competitive imbalance affects the global football ecosystem. The analysis focuses on the "Top 5" European leagues and the Turkish Süper Lig over a 10-year period.</p>
+            
             <h3>Project Motivation</h3>
-            <p>In modern football, money talks. But does it kill the passion? This project investigates whether the growing financial gap between the top clubs and the rest of the league negatively impacts global and physical fan engagement.</p>
-            <p>By utilizing comprehensive datasets, we analyzed the "Top 5" European leagues and the Turkish Süper Lig over a 10-year period, combining financial market values with digital footprint (Google Trends) and physical stadium attendance data.</p>
+            <p>Football has been my biggest passion since childhood, both as a player and a fan. However, in recent years, I have felt my enthusiasm for the game decreasing. I believe the main reason is the massive financial gap between clubs. Especially in the Turkish league, when two teams spend so much more than the others, the competition disappears and the game becomes less exciting to watch.</p>
+            
+            <h3>League Classification Framework</h3>
+            <p>To provide a structured analysis, the six leagues under scope have been categorized into three distinct groups based on their competitive landscapes:</p>
+            
+            <table style="width:100%; border-collapse: collapse; margin-top: 15px; margin-bottom: 25px; font-size: 1rem; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <thead>
+                    <tr style="background-color: #1a252f; color: white; text-align: left;">
+                        <th style="padding: 12px 15px; border: 1px solid #ddd;">GROUPS</th>
+                        <th style="padding: 12px 15px; border: 1px solid #ddd;">DESCRIPTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 12px 15px; border: 1px solid #ddd; font-weight: bold; color: #e74c3c;">Dominant Leagues</td>
+                        <td style="padding: 12px 15px; border: 1px solid #ddd;">Systems where a single club maintains long-term dominance (e.g., Bundesliga, Ligue 1).</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 12px 15px; border: 1px solid #ddd; font-weight: bold; color: #f39c12;">Top-Heavy Leagues</td>
+                        <td style="padding: 12px 15px; border: 1px solid #ddd;">Systems generally dominated by 2, and sometimes 3, major powerhouses (e.g., La Liga, Süper Lig).</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px 15px; border: 1px solid #ddd; font-weight: bold; color: #2ecc71;">Balanced Leagues</td>
+                        <td style="padding: 12px 15px; border: 1px solid #ddd;">Systems with high parity and multiple title contenders (e.g., Premier League, Serie A).</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Data Sources & Collection Plan</h3>
+            <p>The project integrates financial performance data with digital engagement metrics to create a multi-dimensional dataset:</p>
+            <ul>
+                <li><strong>Primary Financial & Performance Data:</strong> Annual transfer expenditures, final league points, and championship margins extracted from official records on <strong>Transfermarkt</strong> and <strong>FBref</strong> using custom Python collection scripts.</li>
+                <li><strong>Fan Engagement (Enrichment Data):</strong> Digital interest tracking via search volume trends through the Google Trends API (<code>pytrends</code>), cross-referenced with physical stadium attendance reports to measure multi-layered loyalty.</li>
+            </ul>
+
+            <h3>Data Characteristics</h3>
+            <p>This longitudinal study captures 10 full consecutive seasons (2015–2025). Accounting for an average density of 20 teams per league across 6 different nations, the finalized master matrix contains approximately <strong>1,200 unique seasonal data points</strong>, built as a unified time-series dataset to evaluate structural paradigm shifts.</p>
+
+            <h3>Analysis & Methodology Plan</h3>
+            <p>The technical engineering pipeline is structured across 5 core operational phases:</p>
+            <ol>
+                <li><strong>Data Preprocessing:</strong> Granular cleaning, standardizing, and merging financial matrices with Google Trends attention levels into a central Year-League master database using Pandas.</li>
+                <li><strong>Exploratory Data Analysis (EDA):</strong> Synthesizing spatial trends to visibly map the "Spending Gap" against physical and digital audience reactions.</li>
+                <li><strong>Correlation Analysis:</strong> Executing statistical tests (Pearson & Spearman) to calculate the strict statistical strength between parity indicators and fan interaction.</li>
+                <li><strong>Hypothesis Testing:</strong> Evaluating structural macro-differences (such as ANOVA models) to see if structural types directly dictate overall global interest stability.</li>
+                <li><strong>Predictive Modeling:</strong> Constructing supervised Machine Learning regressors to forecast future physical attendance metrics based on mid-season competitive and monetary balances.</li>
+            </ol>
+
+            <h3>Expected Findings</h3>
+            <ul>
+                <li>A sharp, predictable negative correlation between geometric championship point margins and macro digital interest metrics.</li>
+                <li>Empirical evidence proving that hyper-concentration of financial capital by 1 or 2 teams leads to an long-term decay in neutral fan retention.</li>
+                <li>Statistical confirmation that balanced competitive ecosystems display significantly higher resilience against digital audience churn compared to rigid, one-team dominated leagues.</li>
+            </ul>
         </div>
 
         <div id="stats" class="section">
