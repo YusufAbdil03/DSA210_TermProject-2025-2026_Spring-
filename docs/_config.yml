@@ -2,3 +2,5 @@ title: Football Financial Disparity
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
+url: "https://yusufabdil03.github.io"
+baseurl: "/DSA210_TermProject-2025-2026_Spring-"
