@@ -34,6 +34,7 @@
     <div class="sidebar">
         <h2>DSA210 Project</h2>
         <a onclick="showSection('home')" class="tab-link active" id="tab-home">🏠 Home</a>
+        <a onclick="showSection('data')" class="tab-link" id="tab-data">📋 Data Pipeline</a>
         <a onclick="showSection('stats')" class="tab-link" id="tab-stats">📊 Statistical Analysis</a>
         <a onclick="showSection('supplementary')" class="tab-link" id="tab-supplementary">🧪 Supplementary Tests</a>
         <a onclick="showSection('ml')" class="tab-link" id="tab-ml">🤖 Machine Learning</a>
@@ -89,9 +90,31 @@
             <h3>Data Characteristics</h3>
             <p>This longitudinal study captures 10 full consecutive seasons (2015–2025). Accounting for an average density of 20 teams per league across 6 different nations, the finalized master matrix contains approximately <strong>1,200 unique seasonal data points</strong>, built as a unified time-series dataset to evaluate structural paradigm shifts.</p>
 
+            <h3>Analysis & Methodology Plan</h3>
+            <p>The technical engineering pipeline is structured across 5 core operational phases:</p>
+            <ol>
+                <li><strong>Data Preprocessing:</strong> Granular cleaning, standardizing, and merging financial matrices with Google Trends attention levels into a central Year-League master database using Pandas.</li>
+                <li><strong>Exploratory Data Analysis (EDA):</strong> Synthesizing spatial trends to visibly map the "Spending Gap" against physical and digital audience reactions.</li>
+                <li><strong>Correlation Analysis:</strong> Executing statistical tests (Pearson & Spearman) to calculate the strict statistical strength between parity indicators and fan interaction.</li>
+                <li><strong>Hypothesis Testing:</strong> Evaluating structural macro-differences (such as ANOVA models) to see if structural types directly dictate overall global interest stability.</li>
+                <li><strong>Predictive Modeling:</strong> Constructing supervised Machine Learning regressors to forecast future physical attendance metrics based on mid-season competitive and monetary balances.</li>
+            </ol>
+
+            <h3>Expected Findings</h3>
+            <ul>
+                <li>A sharp, predictable negative correlation between geometric championship point margins and macro digital interest metrics.</li>
+                <li>Empirical evidence proving that hyper-concentration of financial capital by 1 or 2 teams leads to an long-term decay in neutral fan retention.</li>
+                <li>Statistical confirmation that balanced competitive ecosystems display significantly higher resilience against digital audience churn compared to rigid, one-team dominated leagues.</li>
+            </ul>
+        </div>
+
+        <div id="data" class="section">
+            <h1>Data Collection & Raw Data Pipeline</h1>
+            <p>This dedicated section showcases the automated backend architecture developed to collect, scrape, filter, and structure our macro dataset from various disparate sports and search infrastructure sources.</p>
+
             <h3>Data Collection Automation (Python Script)</h3>
-            <p>The automated end-to-end extraction pipeline combines target scraping from Transfermarkt with API-driven queries to Google Trends. You can scroll through the source code box below internally:</p>
-            <div style="max-height: 250px; overflow-y: auto; background-color: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 6px; font-family: monospace; white-space: pre; font-size: 0.9rem; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 2px 5px rgba(0,0,0,0.2); text-align: left; line-height: 1.4;">import pandas as pd
+            <p>The automated end-to-end extraction pipeline combines target scraping from Transfermarkt with API-driven queries to Google Trends. You can scroll through the complete source code block below internally:</p>
+            <div style="max-height: 300px; overflow-y: auto; background-color: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 6px; font-family: monospace; white-space: pre; font-size: 0.9rem; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 2px 5px rgba(0,0,0,0.2); text-align: left; line-height: 1.4;">import pandas as pd
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
@@ -160,51 +183,14 @@ final_df.to_csv('final_comprehensive_football_data.csv', index=False)
 print("🔥 MASTER COMPREHENSIVE FOOTBALL DATASET SUCCESSFULLY PERSISTED!")</div>
 
             <h3>Comprehensive Master Dataset Preview</h3>
-            <p>Below is the live, scrollable view of the full compiled 1,165 rows from the master time-series matrix. You can scroll through the table data internally with a sticky header:</p>
+            <p>Below is the placeholder for the internal, mouse-scrollable view of the full compiled 1,165 rows from the master time-series matrix. You can internally scroll through the data records without moving the main webpage structure:</p>
             
             <div style="max-height: 380px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);">
-                <p style="padding: 15px; text-align: center; color: #7f8c8d; font-style: italic; margin: 0; background-color: #fafafa; border-bottom: 1px solid #eee;">
-                    ℹ️ Due to HTML rendering safety limits, the optimized interactive preview is deployed inside the source structure. You can view the full file inside your repository.
+                <p style="padding: 25px; text-align: center; color: #7f8c8d; font-style: italic; margin: 0; background-color: #fafafa;">
+                    ℹ️ [LIVE SCROLLABLE DATA PREVIEW CONTAINER]<br>
+                    Due to local security limits, please bind your direct parsed CSV list data into this structural section.
                 </p>
             </div>
-
-            <h3>Analysis & Methodology Plan</h3>
-            <p>The technical engineering pipeline is structured across 5 core operational phases:</p>
-            <ol>
-                <li><strong>Data Preprocessing:</strong> Granular cleaning, standardizing, and merging financial matrices with Google Trends attention levels into a central Year-League master database using Pandas.</li>
-                <li><strong>Exploratory Data Analysis (EDA):</strong> Synthesizing spatial trends to visibly map the "Spending Gap" against physical and digital audience reactions.</li>
-                <li><strong>Correlation Analysis:</strong> Executing statistical tests (Pearson & Spearman) to calculate the strict statistical strength between parity indicators and fan interaction.</li>
-                <li><strong>Hypothesis Testing:</strong> Evaluating structural macro-differences (such as ANOVA models) to see if structural types directly dictate overall global interest stability.</li>
-                <li><strong>Predictive Modeling:</strong> Constructing supervised Machine Learning regressors to forecast future physical attendance metrics based on mid-season competitive and monetary balances.</li>
-            </ol>
-
-            <h3>Expected Findings</h3>
-            <ul>
-                <li>A sharp, predictable negative correlation between geometric championship point margins and macro digital interest metrics.</li>
-                <li>Empirical evidence proving that hyper-concentration of financial capital by 1 or 2 teams leads to an long-term decay in neutral fan retention.</li>
-                <li>Statistical confirmation that balanced competitive ecosystems display significantly higher resilience against digital audience churn compared to rigid, one-team dominated leagues.</li>
-            </ul>
-
-            <h3>Summary of Key Statistical Findings</h3>
-            <p>Moving beyond basic explorations, we executed four rigorous hypothesis tests to examine the data from global, structural, physical, and temporal angles:</p>
-            <ul>
-                <li><strong>Global Structure (One-Way ANOVA):</strong> Proved that a league's macro-structure directly dictates its global digital footprint (p-value = 0.0066).</li>
-                <li><strong>The Financial Polarization Paradox (Pearson Correlation):</strong> Discovered that wider financial gaps strongly correlate with higher stadium attendance ($r = 0.6941$, p-value = 0.0000), as wealth concentration pools superstars into flagship clubs, turning matches into premier global spectacles.</li>
-                <li><strong>Debunking Trickle-Down Economics:</strong> Found an immense correlation ($r = 0.8434$, p-value < 0.0001) proving overall league growth expands internal inequality rather than distributing capital down.</li>
-                <li><strong>Temporal Divide:</strong> Confirmed that the financial divide is actively worsening and compounding year-over-year ($r = 0.3384$, p-value = 0.0082).</li>
-            </ul>
-
-            <h3>Summary of Machine Learning Diagnostics</h3>
-            <p>Our predictive pipeline transitioned from forecasting digital interest (which underfitted due to social volatility) to successfully predicting <strong>Average Stadium Attendance</strong> using Total Market Value and Google Interest:</p>
-            <ul>
-                <li>Our non-linear <strong>Decision Tree Regressor</strong> successfully achieved a solid baseline **$R^2$ score of 0.8143**.</li>
-                <li>To eliminate selection bias, a **Shuffled 5-Fold Cross-Validation** was executed, proving high stability with a mean cross-validated $R^2$ score of **63.26%**.</li>
-                <li><strong>Feature Importance analysis</strong> revealed that **Total League Wealth drives 88.93% of the model's predictive weight**, proving that while digital trends reflect casual global curiosity, the physical act of buying a ticket is firmly rooted in a league's financial power tier.</li>
-            </ul>
-
-            <h3>Conclusion & Future Outlook</h3>
-            <p>In conclusion, while my initial childhood intuition was that financial gaps simply kill the sport, the empirical data highlights a fascinating socio-economic paradox: overall league growth worsens domestic inequality, yet this exact concentration of elite superstar rosters serves as the primary engine pulling crowds into real-world stadiums. Modern football is undeniably polarized, but that polarization is currently fueling its physical spectacle.</p>
-            <p>Future iterations will expand this framework by integrating live social media sentiment diagnostics (X/Twitter API) and broadcasting revenue data to analyze whether home-television viewers display a different psychological retention pattern compared to match-going fans when competition stales.</p>
         </div>
 
         <div id="stats" class="section">
@@ -294,7 +280,7 @@ print("🔥 MASTER COMPREHENSIVE FOOTBALL DATASET SUCCESSFULLY PERSISTED!")</div
             <p>Given the compact nature of our macroeconomic time-series dataset (60 aggregated rows), a cross-validated score of ~63.3% mathematically confirms that our Decision Tree model generalizes patterns solidly across randomized splits and distinct eras, without overfitting to an arbitrary train-test partition.</p>
             
             <h4>Feature Importance Analysis</h4>
-            <p>We extracted the baseline Gini importance metrics from the trained Decision Tree to see what primary macro-variable holds the highest weight when forecasting matchday attendance:</p>
+            <p>We extracted the baseline Gini importance metrics from the turned Decision Tree to see what primary macro-variable holds the highest weight when forecasting matchday attendance:</p>
             <ul>
                 <li><strong>Total League Market Value:</strong> 88.93% predictive importance</li>
                 <li><strong>Google Search Interest:</strong> 11.07% predictive importance</li>
