@@ -106,6 +106,27 @@
                 <li>Empirical evidence proving that hyper-concentration of financial capital by 1 or 2 teams leads to an long-term decay in neutral fan retention.</li>
                 <li>Statistical confirmation that balanced competitive ecosystems display significantly higher resilience against digital audience churn compared to rigid, one-team dominated leagues.</li>
             </ul>
+
+            <h3>Summary of Key Statistical Findings</h3>
+            <p>Moving beyond basic explorations, we executed four rigorous hypothesis tests to examine the data from global, structural, physical, and temporal angles:</p>
+            <ul>
+                <li><strong>Global Structure (One-Way ANOVA):</strong> Proved that a league's macro-structure directly dictates its global digital footprint (p-value = 0.0066).</li>
+                <li><strong>The Financial Polarization Paradox (Pearson Correlation):</strong> Discovered that wider financial gaps strongly correlate with higher stadium attendance ($r = 0.6941$, p-value = 0.0000), as wealth concentration pools superstars into flagship clubs, turning matches into premier global spectacles.</li>
+                <li><strong>Debunking Trickle-Down Economics:</strong> Found an immense correlation ($r = 0.8434$, p-value &lt; 0.0001) proving overall league growth expands internal inequality rather than distributing capital down.</li>
+                <li><strong>Temporal Divide:</strong> Confirmed that the financial divide is actively worsening and compounding year-over-year ($r = 0.3384$, p-value = 0.0082).</li>
+            </ul>
+
+            <h3>Summary of Machine Learning Diagnostics</h3>
+            <p>Our predictive pipeline transitioned from forecasting digital interest (which underfitted due to social volatility) to successfully predicting <strong>Average Stadium Attendance</strong> using Total Market Value and Google Interest:</p>
+            <ul>
+                <li>Our non-linear <strong>Decision Tree Regressor</strong> successfully achieved a solid baseline **$R^2$ score of 0.8143**.</li>
+                <li>To eliminate selection bias, a **Shuffled 5-Fold Cross-Validation** was executed, proving high stability with a mean cross-validated $R^2$ score of **63.26%**.</li>
+                <li><strong>Feature Importance analysis</strong> revealed that **Total League Wealth drives 88.93% of the model's predictive weight**, proving that while digital trends reflect casual global curiosity, the physical act of buying a ticket is firmly rooted in a league's financial power tier.</li>
+            </ul>
+
+            <h3>Conclusion & Future Outlook</h3>
+            <p>In conclusion, while my initial childhood intuition was that financial gaps simply kill the sport, the empirical data highlights a fascinating socio-economic paradox: overall league growth worsens domestic inequality, yet this exact concentration of elite superstar rosters serves as the primary engine pulling crowds into real-world stadiums. Modern football is undeniably polarized, but that polarization is currently fueling its physical spectacle.</p>
+            <p>Future iterations will expand this framework by integrating live social media sentiment diagnostics (X/Twitter API) and broadcasting revenue data to analyze whether home-television viewers display a different psychological retention pattern compared to match-going fans when competition stales.</p>
         </div>
 
         <div id="data" class="section">
@@ -141,41 +162,41 @@ for league_name, league_id in leagues.items():
     except:
         g_annual = pd.DataFrame()
 
-    # 2. Scrape Financials & Attendance from Transfermarkt
-    for year in years:
-        mv_url = f"https://www.transfermarkt.com.tr/direktlink/startseite/wettbewerb/{league_id}/plus/?saison_id={year}"
-        att_url = f"https://www.transfermarkt.com.tr/direktlink/besucherzahlen/wettbewerb/{league_id}/plus/?saison_id={year}"
+# 2. Scrape Financials & Attendance from Transfermarkt
+for year in years:
+    mv_url = f"https://www.transfermarkt.com.tr/direktlink/startseite/wettbewerb/{league_id}/plus/?saison_id={year}"
+    att_url = f"https://www.transfermarkt.com.tr/direktlink/besucherzahlen/wettbewerb/{league_id}/plus/?saison_id={year}"
+    
+    try:
+        mv_res = requests.get(mv_url, headers=headers, timeout=20)
+        att_res = requests.get(att_url, headers=headers, timeout=20)
         
-        try:
-            mv_res = requests.get(mv_url, headers=headers, timeout=20)
-            att_res = requests.get(att_url, headers=headers, timeout=20)
+        if mv_res.status_code == 200 and att_res.status_code == 200:
+            mv_soup = BeautifulSoup(mv_res.content, 'html.parser')
+            att_soup = BeautifulSoup(att_res.content, 'html.parser')
             
-            if mv_res.status_code == 200 and att_res.status_code == 200:
-                mv_soup = BeautifulSoup(mv_res.content, 'html.parser')
-                att_soup = BeautifulSoup(att_res.content, 'html.parser')
-                
-                footer = att_soup.find("tfoot")
-                avg_att = int(footer.find_all("td")[-2].text.strip().replace('.', '')) if footer else 0
-                google_score = g_annual.loc[year].values[0] if (not g_annual.empty and year in g_annual.index) else 0
-                
-                mv_table = mv_soup.find("table", {"class": "items"})
-                if mv_table:
-                    rows = mv_table.find_all("tr", {"class": ["odd", "even"]})
-                    for r in rows:
-                        c = r.find_all("td")
-                        if len(c) > 6:
-                            team = c[2].text.strip()
-                            txt = c[6].text.strip().lower()
-                            val = float(txt.split(' ')[0].replace(',', '.')) * 1000 if 'milyar' in txt else (float(txt.split(' ')[0].replace(',', '.')) if 'mil' in txt else 0)
-                            
-                            all_data_list.append({
-                                'Year': year, 'League': league_name, 'Team': team,
-                                'MarketValue_M_Euro': val, 'League_Avg_Attendance': avg_att,
-                                'League_Google_Interest': google_score
-                            })
-        except Exception as e:
-            print(f"Error packing row {league_name} {year}: {e}")
-            time.sleep(2)
+            footer = att_soup.find("tfoot")
+            avg_att = int(footer.find_all("td")[-2].text.strip().replace('.', '')) if footer else 0
+            google_score = g_annual.loc[year].values[0] if (not g_annual.empty and year in g_annual.index) else 0
+            
+            mv_table = mv_soup.find("table", {"class": "items"})
+            if mv_table:
+                rows = mv_table.find_all("tr", {"class": ["odd", "even"]})
+                for r in rows:
+                    c = r.find_all("td")
+                    if len(c) > 6:
+                        team = c[2].text.strip()
+                        txt = c[6].text.strip().lower()
+                        val = float(txt.split(' ')[0].replace(',', '.')) * 1000 if 'milyar' in txt else (float(txt.split(' ')[0].replace(',', '.')) if 'mil' in txt else 0)
+                        
+                        all_data_list.append({
+                            'Year': year, 'League': league_name, 'Team': team,
+                            'MarketValue_M_Euro': val, 'League_Avg_Attendance': avg_att,
+                            'League_Google_Interest': google_score
+                        })
+    except Exception as e:
+        print(f"Error packing row {league_name} {year}: {e}")
+        time.sleep(2)
 
 # Save the master compiled time-series matrix
 final_df = pd.DataFrame(all_data_list)
@@ -187,7 +208,7 @@ print("🔥 MASTER COMPREHENSIVE FOOTBALL DATASET SUCCESSFULLY PERSISTED!")</div
             
             <div style="max-height: 380px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);">
                 <p style="padding: 25px; text-align: center; color: #7f8c8d; font-style: italic; margin: 0; background-color: #fafafa;">
-                    ℹ_ [LIVE SCROLLABLE DATA PREVIEW CONTAINER]<br>
+                    ℹ️ [LIVE SCROLLABLE DATA PREVIEW CONTAINER]<br>
                     Due to local security limits, please bind your direct parsed CSV list data into this structural section.
                 </p>
             </div>
