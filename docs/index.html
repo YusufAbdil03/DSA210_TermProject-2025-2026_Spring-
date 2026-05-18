@@ -5,137 +5,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Financial Disparity | DSA210</title>
     <style>
-        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; background-color: #f8f9fa; color: #333; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        :root {
+            --bg-color: #ffffff;
+            --sidebar-bg: #f8f9fa;
+            --text-color: #24292f;
+            --text-muted: #57606a;
+            --border-color: #d0d7de;
+            --primary-color: #0969da;
+            --hover-bg: #f3f4f6;
+            --code-bg: #f6f8fa;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            min-width: 280px;
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
         
-        /* Sol Menü (Sidebar) */
-        .sidebar { width: 260px; background-color: #1a252f; color: white; height: 100vh; position: fixed; padding-top: 20px; overflow-y: auto; }
-        .sidebar h2 { text-align: center; font-size: 1.2rem; border-bottom: 1px solid #2c3e50; padding-bottom: 15px; margin: 0 20px 20px; color: #1abc9c; }
-        .sidebar a { display: block; color: #bdc3c7; padding: 15px 20px; text-decoration: none; font-weight: bold; transition: 0.3s; cursor: pointer; border-left: 4px solid transparent; }
-        .sidebar a:hover, .sidebar a.active { background-color: #2c3e50; color: white; border-left: 4px solid #1abc9c; }
+        .sidebar-header h2 {
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sidebar-nav {
+            padding: 15px 10px;
+        }
+
+        .tab-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 4px;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.95rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab-link:hover {
+            background-color: var(--hover-bg);
+            color: var(--text-color);
+        }
+
+        .tab-link.active {
+            background-color: #e5f3ff;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Main Area */
+        .main-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+
+        /* Topbar (Breadcrumbs & Icons) */
+        .topbar {
+            height: 50px;
+            min-height: 50px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+            background-color: var(--bg-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .breadcrumb {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
         
-        /* İçerik Kısmı */
-        .content { margin-left: 260px; padding: 40px; width: 100%; max-width: 900px; }
-        .section { display: none; background: white; padding: 35px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); margin-bottom: 30px; }
-        .section.active { display: block; }
-        h1 { color: #2c3e50; border-bottom: 3px solid #1abc9c; padding-bottom: 10px; margin-top: 0; }
-        h3 { color: #34495e; margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-        p { line-height: 1.6; font-size: 1.05rem; }
-        ul, ol { line-height: 1.8; font-size: 1.05rem; }
+        .breadcrumb span {
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .topbar-icons span {
+            margin-left: 15px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        .topbar-icons span:hover {
+            opacity: 1;
+        }
+
+        /* Content */
+        .content {
+            padding: 40px;
+            max-width: 850px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .section { display: none; }
+        .section.active { display: block; animation: fadeIn 0.3s ease-in-out; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 { font-size: 2.2rem; font-weight: 800; margin-top: 0; margin-bottom: 20px; padding-bottom: 10px; }
+        h3 { font-size: 1.3rem; font-weight: 600; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 5px; }
+        p { line-height: 1.7; font-size: 1.05rem; color: #24292f; margin-bottom: 16px; }
+        ul, ol { line-height: 1.7; font-size: 1.05rem; padding-left: 25px; margin-bottom: 16px; }
         li { margin-bottom: 8px; }
         
-        /* Fotoğraf Ayarları */
-        img { width: 100%; border-radius: 8px; margin-top: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        
-        .footer { margin-top: 40px; text-align: center; color: #7f8c8d; font-size: 0.9rem; padding-bottom: 20px; }
+        img { max-width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border-color); margin: 20px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+
+        /* Tables */
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        th { background-color: var(--sidebar-bg); font-weight: 600; text-align: left; padding: 12px; border: 1px solid var(--border-color); }
+        td { padding: 12px; border: 1px solid var(--border-color); }
+        tr:nth-child(even) { background-color: var(--hover-bg); }
+
+        /* Code Blocks & Raw Data Box */
+        .code-block {
+            background-color: var(--code-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 16px;
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            overflow-x: auto;
+            margin: 20px 0;
+            color: #24292f;
+        }
+
+        .scrollable-table-container {
+            max-height: 400px; 
+            overflow-y: auto; 
+            border: 1px solid var(--border-color); 
+            border-radius: 6px; 
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 60px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            text-align: center;
+            padding: 20px 0 40px 0;
+        }
     </style>
 </head>
 <body>
 
     <div class="sidebar">
-        <h2>DSA210 Project</h2>
-        <a onclick="showSection('home')" class="tab-link active" id="tab-home">🏠 Home</a>
-        <a onclick="showSection('data')" class="tab-link" id="tab-data">📋 Data Pipeline</a>
-        <a onclick="showSection('stats')" class="tab-link" id="tab-stats">📊 Statistical Analysis</a>
-        <a onclick="showSection('supplementary')" class="tab-link" id="tab-supplementary">🧪 Supplementary Tests</a>
-        <a onclick="showSection('ml')" class="tab-link" id="tab-ml">🤖 Machine Learning</a>
+        <div class="sidebar-header">
+            <h2>📘 DSA210 Project</h2>
+        </div>
+        <div class="sidebar-nav">
+            <a onclick="showSection('home', 'Home')" class="tab-link active" id="tab-home">🏠 Home</a>
+            <a onclick="showSection('data', 'Data Pipeline')" class="tab-link" id="tab-data">📋 Data Pipeline</a>
+            <a onclick="showSection('stats', 'Statistical Analysis')" class="tab-link" id="tab-stats">📊 Statistical Analysis</a>
+            <a onclick="showSection('supplementary', 'Supplementary Tests')" class="tab-link" id="tab-supplementary">🧪 Supplementary Tests</a>
+            <a onclick="showSection('ml', 'Machine Learning')" class="tab-link" id="tab-ml">🤖 Machine Learning</a>
+        </div>
     </div>
 
-    <div class="content">
+    <div class="main-area" id="main-area">
         
-        <div id="home" class="section active">
-            <h1>Competitive Balance and Fan Engagement in Football</h1>
-            <p style="font-size: 1.15rem; color: #7f8c8d; font-style: italic; margin-bottom: 30px;">
-                Official documentation site for the DSA210 Term Project (2025-2026 Spring).
-            </p>
-            
-            <h3>Overview</h3>
-            <p>This project aims to analyze the socio-economic impact of financial disparity in modern football. By examining the correlation between club expenditures and audience interest metrics, the study explores how competitive imbalance affects the global football ecosystem. The analysis focuses on the "Top 5" European leagues and the Turkish Süper Lig over a 10-year period.</p>
-            
-            <h3>Project Motivation</h3>
-            <p>Football has been my biggest passion since childhood, both as a player and a fan. However, in recent years, I have felt my enthusiasm for the game decreasing. I believe the main reason is the massive financial gap between clubs. Especially in the Turkish league, when two teams spend so much more than the others, the competition disappears and the game becomes less exciting to watch.</p>
-            
-            <h3>League Classification Framework</h3>
-            <p>To provide a structured analysis, the six leagues under scope have been categorized into three distinct groups based on their competitive landscapes:</p>
-            
-            <table style="width:100%; border-collapse: collapse; margin-top: 15px; margin-bottom: 25px; font-size: 1rem; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-                <thead>
-                    <tr style="background-color: #1a252f; color: white; text-align: left;">
-                        <th style="padding: 12px 15px; border: 1px solid #ddd;">GROUPS</th>
-                        <th style="padding: 12px 15px; border: 1px solid #ddd;">DESCRIPTION</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="padding: 12px 15px; border: 1px solid #ddd; font-weight: bold; color: #e74c3c;">Dominant Leagues</td>
-                        <td style="padding: 12px 15px; border: 1px solid #ddd;">Systems where a single club maintains long-term dominance (e.g., Bundesliga, Ligue 1).</td>
-                    </tr>
-                    <tr style="background-color: #f9f9f9;">
-                        <td style="padding: 12px 15px; border: 1px solid #ddd; font-weight: bold; color: #f39c12;">Top-Heavy Leagues</td>
-                        <td style="padding: 12px 15px; border: 1px solid #ddd;">Systems generally dominated by 2, and sometimes 3, major powerhouses (e.g., La Liga, Süper Lig).</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 12px 15px; border: 1px solid #ddd; font-weight: bold; color: #2ecc71;">Balanced Leagues</td>
-                        <td style="padding: 12px 15px; border: 1px solid #ddd;">Systems with high parity and multiple title contenders (e.g., Premier League, Serie A).</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h3>Data Sources & Collection Plan</h3>
-            <p>The project integrates financial performance data with digital engagement metrics to create a multi-dimensional dataset:</p>
-            <ul>
-                <li><strong>Primary Financial & Performance Data:</strong> Annual transfer expenditures, final league points, and championship margins extracted from official records on <strong>Transfermarkt</strong> and <strong>FBref</strong> using custom Python collection scripts.</li>
-                <li><strong>Fan Engagement (Enrichment Data):</strong> Digital interest tracking via search volume trends through the Google Trends API (<code>pytrends</code>), cross-referenced with physical stadium attendance reports to measure multi-layered loyalty.</li>
-            </ul>
-
-            <h3>Data Characteristics</h3>
-            <p>This longitudinal study captures 10 full consecutive seasons (2015–2025). Accounting for an average density of 20 teams per league across 6 different nations, the finalized master matrix contains approximately <strong>1,200 unique seasonal data points</strong>, built as a unified time-series dataset to evaluate structural paradigm shifts.</p>
-
-            <h3>Analysis & Methodology Plan</h3>
-            <p>The technical engineering pipeline is structured across 5 core operational phases:</p>
-            <ol>
-                <li><strong>Data Preprocessing:</strong> Granular cleaning, standardizing, and merging financial matrices with Google Trends attention levels into a central Year-League master database using Pandas.</li>
-                <li><strong>Exploratory Data Analysis (EDA):</strong> Synthesizing spatial trends to visibly map the "Spending Gap" against physical and digital audience reactions.</li>
-                <li><strong>Correlation Analysis:</strong> Executing statistical tests (Pearson & Spearman) to calculate the strict statistical strength between parity indicators and fan interaction.</li>
-                <li><strong>Hypothesis Testing:</strong> Evaluating structural macro-differences (such as ANOVA models) to see if structural types directly dictate overall global interest stability.</li>
-                <li><strong>Predictive Modeling:</strong> Constructing supervised Machine Learning regressors to forecast future physical attendance metrics based on mid-season competitive and monetary balances.</li>
-            </ol>
-
-            <h3>Expected Findings</h3>
-            <ul>
-                <li>A sharp, predictable negative correlation between geometric championship point margins and macro digital interest metrics.</li>
-                <li>Empirical evidence proving that hyper-concentration of financial capital by 1 or 2 teams leads to an long-term decay in neutral fan retention.</li>
-                <li>Statistical confirmation that balanced competitive ecosystems display significantly higher resilience against digital audience churn compared to rigid, one-team dominated leagues.</li>
-            </ul>
-
-            <h3>Summary of Key Statistical Findings</h3>
-            <p>Moving beyond basic explorations, we executed four rigorous hypothesis tests to examine the data from global, structural, physical, and temporal angles:</p>
-            <ul>
-                <li><strong>Global Structure (One-Way ANOVA):</strong> Proved that a league's macro-structure directly dictates its global digital footprint (p-value = 0.0066).</li>
-                <li><strong>The Financial Polarization Paradox (Pearson Correlation):</strong> Discovered that wider financial gaps strongly correlate with higher stadium attendance ($r = 0.6941$, p-value = 0.0000), as wealth concentration pools superstars into flagship clubs, turning matches into premier global spectacles.</li>
-                <li><strong>Debunking Trickle-Down Economics:</strong> Found an immense correlation ($r = 0.8434$, p-value &lt; 0.0001) proving overall league growth expands internal inequality rather than distributing capital down.</li>
-                <li><strong>Temporal Divide:</strong> Confirmed that the financial divide is actively worsening and compounding year-over-year ($r = 0.3384$, p-value = 0.0082).</li>
-            </ul>
-
-            <h3>Summary of Machine Learning Diagnostics</h3>
-            <p>Our predictive pipeline transitioned from forecasting digital interest (which underfitted due to social volatility) to successfully predicting <strong>Average Stadium Attendance</strong> using Total Market Value and Google Interest:</p>
-            <ul>
-                <li>Our non-linear <strong>Decision Tree Regressor</strong> successfully achieved a solid baseline **$R^2$ score of 0.8143**.</li>
-                <li>To eliminate selection bias, a **Shuffled 5-Fold Cross-Validation** was executed, proving high stability with a mean cross-validated $R^2$ score of **63.26%**.</li>
-                <li><strong>Feature Importance analysis</strong> revealed that **Total League Wealth drives 88.93% of the model's predictive weight**, proving that while digital trends reflect casual global curiosity, the physical act of buying a ticket is firmly rooted in a league's financial power tier.</li>
-            </ul>
-
-            <h3>Conclusion & Future Outlook</h3>
-            <p>In conclusion, while my initial childhood intuition was that financial gaps simply kill the sport, the empirical data highlights a fascinating socio-economic paradox: overall league growth worsens domestic inequality, yet this exact concentration of elite superstar rosters serves as the primary engine pulling crowds into real-world stadiums. Modern football is undeniably polarized, but that polarization is currently fueling its physical spectacle.</p>
-            <p>Future iterations will expand this framework by integrating live social media sentiment diagnostics (X/Twitter API) and broadcasting revenue data to analyze whether home-television viewers display a different psychological retention pattern compared to match-going fans when competition stales.</p>
+        <div class="topbar">
+            <div class="breadcrumb">
+                DSA210 Project / <span id="breadcrumb-current">Home</span>
+            </div>
+            <div class="topbar-icons">
+                <span title="Search">🔍</span>
+                <span title="GitHub Repo">🐙</span>
+                <span title="Toggle Theme">🌗</span>
+            </div>
         </div>
 
-        <div id="data" class="section">
-            <h1>Data Collection & Raw Data Pipeline</h1>
-            <p>This dedicated section showcases the automated backend architecture developed to collect, scrape, filter, and structure our macro dataset from various disparate sports and search infrastructure sources.</p>
+        <div class="content">
+            <div id="home" class="section active">
+                <h1>Competitive Balance and Fan Engagement in Football</h1>
+                <p style="font-size: 1.15rem; color: var(--text-muted); font-style: italic; margin-bottom: 30px;">
+                    Official documentation site for the DSA210 Term Project (2025-2026 Spring).
+                </p>
+                
+                <h3>Overview</h3>
+                <p>This project aims to analyze the socio-economic impact of financial disparity in modern football. By examining the correlation between club expenditures and audience interest metrics, the study explores how competitive imbalance affects the global football ecosystem. The analysis focuses on the "Top 5" European leagues and the Turkish Süper Lig over a 10-year period.</p>
+                
+                <h3>Project Motivation</h3>
+                <p>Football has been my biggest passion since childhood, both as a player and a fan. However, in recent years, I have felt my enthusiasm for the game decreasing. I believe the main reason is the massive financial gap between clubs. Especially in the Turkish league, when two teams spend so much more than the others, the competition disappears and the game becomes less exciting to watch.</p>
+                
+                <h3>League Classification Framework</h3>
+                <p>To provide a structured analysis, the six leagues under scope have been categorized into three distinct groups based on their competitive landscapes:</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>GROUPS</th>
+                            <th>DESCRIPTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="font-weight: 600; color: #d73a49;">Dominant Leagues</td>
+                            <td>Systems where a single club maintains long-term dominance (e.g., Bundesliga, Ligue 1).</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 600; color: #e36209;">Top-Heavy Leagues</td>
+                            <td>Systems generally dominated by 2, and sometimes 3, major powerhouses (e.g., La Liga, Süper Lig).</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 600; color: #28a745;">Balanced Leagues</td>
+                            <td>Systems with high parity and multiple title contenders (e.g., Premier League, Serie A).</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <h3>Data Collection Automation (Python Script)</h3>
-            <p>The automated end-to-end extraction pipeline combines target scraping from Transfermarkt with API-driven queries to Google Trends. You can scroll through the complete source code block below internally:</p>
-            <div style="max-height: 300px; overflow-y: auto; background-color: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 6px; font-family: monospace; white-space: pre; font-size: 0.9rem; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 2px 5px rgba(0,0,0,0.2); text-align: left; line-height: 1.4;">import pandas as pd
+                <h3>Data Sources & Collection Plan</h3>
+                <p>The project integrates financial performance data with digital engagement metrics to create a multi-dimensional dataset:</p>
+                <ul>
+                    <li><strong>Primary Financial & Performance Data:</strong> Annual transfer expenditures, final league points, and championship margins extracted from official records on <strong>Transfermarkt</strong> and <strong>FBref</strong> using custom Python collection scripts.</li>
+                    <li><strong>Fan Engagement (Enrichment Data):</strong> Digital interest tracking via search volume trends through the Google Trends API (<code>pytrends</code>), cross-referenced with physical stadium attendance reports to measure multi-layered loyalty.</li>
+                </ul>
+
+                <h3>Data Characteristics</h3>
+                <p>This longitudinal study captures 10 full consecutive seasons (2015–2025). Accounting for an average density of 20 teams per league across 6 different nations, the finalized master matrix contains approximately <strong>1,200 unique seasonal data points</strong>, built as a unified time-series dataset to evaluate structural paradigm shifts.</p>
+
+                <h3>Analysis & Methodology Plan</h3>
+                <p>The technical engineering pipeline is structured across 5 core operational phases:</p>
+                <ol>
+                    <li><strong>Data Preprocessing:</strong> Granular cleaning, standardizing, and merging financial matrices with Google Trends attention levels into a central Year-League master database using Pandas.</li>
+                    <li><strong>Exploratory Data Analysis (EDA):</strong> Synthesizing spatial trends to visibly map the "Spending Gap" against physical and digital audience reactions.</li>
+                    <li><strong>Correlation Analysis:</strong> Executing statistical tests (Pearson & Spearman) to calculate the strict statistical strength between parity indicators and fan interaction.</li>
+                    <li><strong>Hypothesis Testing:</strong> Evaluating structural macro-differences (such as ANOVA models) to see if structural types directly dictate overall global interest stability.</li>
+                    <li><strong>Predictive Modeling:</strong> Constructing supervised Machine Learning regressors to forecast future physical attendance metrics based on mid-season competitive and monetary balances.</li>
+                </ol>
+
+                <h3>Expected Findings</h3>
+                <ul>
+                    <li>A sharp, predictable negative correlation between geometric championship point margins and macro digital interest metrics.</li>
+                    <li>Empirical evidence proving that hyper-concentration of financial capital by 1 or 2 teams leads to an long-term decay in neutral fan retention.</li>
+                    <li>Statistical confirmation that balanced competitive ecosystems display significantly higher resilience against digital audience churn compared to rigid, one-team dominated leagues.</li>
+                </ul>
+            </div>
+
+            <div id="data" class="section">
+                <h1>Data Collection & Raw Data Pipeline</h1>
+                <p>This dedicated section showcases the automated backend architecture developed to collect, scrape, filter, and structure our macro dataset from various disparate sports and search infrastructure sources.</p>
+
+                <h3>Data Collection Automation (Python Script)</h3>
+                <p>The automated end-to-end extraction pipeline combines target scraping from Transfermarkt with API-driven queries to Google Trends.</p>
+                <div class="code-block" style="white-space: pre;">import pandas as pd
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
@@ -148,7 +304,7 @@ leagues = {
     'Serie A': 'IT1', 'Ligue 1': 'FR1', 'Süper Lig': 'TR1'
 }
 years = range(2015, 2025)
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 pytrends = TrendReq(hl='tr-TR', tz=360)
 all_data_list = []
 
@@ -175,25 +331,8 @@ for year in years:
             mv_soup = BeautifulSoup(mv_res.content, 'html.parser')
             att_soup = BeautifulSoup(att_res.content, 'html.parser')
             
-            footer = att_soup.find("tfoot")
-            avg_att = int(footer.find_all("td")[-2].text.strip().replace('.', '')) if footer else 0
-            google_score = g_annual.loc[year].values[0] if (not g_annual.empty and year in g_annual.index) else 0
+            # Extraction logic omitted for brevity in preview...
             
-            mv_table = mv_soup.find("table", {"class": "items"})
-            if mv_table:
-                rows = mv_table.find_all("tr", {"class": ["odd", "even"]})
-                for r in rows:
-                    c = r.find_all("td")
-                    if len(c) > 6:
-                        team = c[2].text.strip()
-                        txt = c[6].text.strip().lower()
-                        val = float(txt.split(' ')[0].replace(',', '.')) * 1000 if 'milyar' in txt else (float(txt.split(' ')[0].replace(',', '.')) if 'mil' in txt else 0)
-                        
-                        all_data_list.append({
-                            'Year': year, 'League': league_name, 'Team': team,
-                            'MarketValue_M_Euro': val, 'League_Avg_Attendance': avg_att,
-                            'League_Google_Interest': google_score
-                        })
     except Exception as e:
         print(f"Error packing row {league_name} {year}: {e}")
         time.sleep(2)
@@ -203,125 +342,131 @@ final_df = pd.DataFrame(all_data_list)
 final_df.to_csv('final_comprehensive_football_data.csv', index=False)
 print("🔥 MASTER COMPREHENSIVE FOOTBALL DATASET SUCCESSFULLY PERSISTED!")</div>
 
-            <h3>Comprehensive Master Dataset Preview</h3>
-            <p>Below is the placeholder for the internal, mouse-scrollable view of the full compiled 1,165 rows from the master time-series matrix. You can internally scroll through the data records without moving the main webpage structure:</p>
-            
-            <div style="max-height: 380px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; margin-top: 15px; margin-bottom: 25px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);">
-                <p style="padding: 25px; text-align: center; color: #7f8c8d; font-style: italic; margin: 0; background-color: #fafafa;">
-                    ℹ️ [LIVE SCROLLABLE DATA PREVIEW CONTAINER]<br>
-                    Due to local security limits, please bind your direct parsed CSV list data into this structural section.
-                </p>
+                <h3>Comprehensive Master Dataset Preview</h3>
+                <p>Below is the placeholder for the internal, mouse-scrollable view of the full compiled rows from the master time-series matrix.</p>
+                
+                <div class="scrollable-table-container">
+                    <p style="padding: 25px; text-align: center; color: var(--text-muted); font-style: italic; margin: 0; background-color: var(--code-bg);">
+                        ℹ️ [LIVE SCROLLABLE DATA PREVIEW CONTAINER]<br>
+                        Due to local security limits, please bind your direct parsed CSV list data into this structural section.
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div id="stats" class="section">
-            <h1>Statistical Analysis & Hypothesis Testing</h1>
-            <p>In this section, we apply rigorous statistical methods to test our core hypothesis: Does the financial disparity within a league significantly impact its global digital popularity?</p>
-            
-            <h3>1. Global Analysis: One-Way ANOVA</h3>
-            <p><strong>Test Results:</strong><br> F-Statistic: 5.4772 <br> P-value: 0.0066</p>
-            <p><strong>Decision:</strong> Since the p-value (0.0066) is significantly lower than alpha (0.05), we strongly <strong>reject the null hypothesis (H0)</strong>. This provides strong statistical evidence that the structural differences between these league groups lead to significantly different levels of global digital engagement.</p>
-            <img src="dsa-ht8.png" alt="ANOVA Results">
+            <div id="stats" class="section">
+                <h1>Statistical Analysis & Hypothesis Testing</h1>
+                <p>In this section, we apply rigorous statistical methods to test our core hypothesis: Does the financial disparity within a league significantly impact its global digital popularity?</p>
+                
+                <h3>1. Global Analysis: One-Way ANOVA</h3>
+                <p><strong>Test Results:</strong><br> F-Statistic: 5.4772 <br> P-value: 0.0066</p>
+                <p><strong>Decision:</strong> Since the p-value (0.0066) is significantly lower than alpha (0.05), we strongly <strong>reject the null hypothesis (H0)</strong>. This provides strong statistical evidence that the structural differences between these league groups lead to significantly different levels of global digital engagement.</p>
+                <img src="dsa-ht8.png" alt="ANOVA Results">
 
-            <h3>2. Overall Correlation Overview</h3>
-            <p>Before diving into the micro-dynamics of each league, we established the baseline correlation between financial disparities and fan engagement across our entire dataset.</p>
-            <img src="dsa-ht9.png" alt="Correlation Overview">
+                <h3>2. Overall Correlation Overview</h3>
+                <p>Before diving into the micro-dynamics of each league, we established the baseline correlation between financial disparities and fan engagement across our entire dataset.</p>
+                <img src="dsa-ht9.png" alt="Correlation Overview">
 
-            <h3>3. League-Specific Trends</h3>
-            <p>To truly understand the socio-economic impact, we isolated the financial difference between the top 2 clubs and compared it against Google Interest for each of the 6 leagues.</p>
-            
-            <h4>English Premier League</h4>
-            <img src="dsa-ht1.png" alt="Premier League Analysis">
-            
-            <h4>Spanish La Liga</h4>
-            <img src="dsa-ht3.png" alt="La Liga Analysis">
-            
-            <h4>Italian Serie A</h4>
-            <img src="dsa-ht2.png" alt="Serie A Analysis">
-            
-            <h4>German Bundesliga</h4>
-            <img src="dsa-ht6.png" alt="Bundesliga Analysis">
-            
-            <h4>French Ligue 1</h4>
-            <img src="dsa-ht5.png" alt="Ligue 1 Analysis">
-            
-            <h4>Turkish Süper Lig</h4>
-            <img src="dsa-ht4.png" alt="Süper Lig Analysis">
-        </div>
+                <h3>3. League-Specific Trends</h3>
+                <p>To truly understand the socio-economic impact, we isolated the financial difference between the top 2 clubs and compared it against Google Interest for each of the 6 leagues.</p>
+                
+                <h4>English Premier League</h4>
+                <img src="dsa-ht1.png" alt="Premier League Analysis">
+                
+                <h4>Spanish La Liga</h4>
+                <img src="dsa-ht3.png" alt="La Liga Analysis">
+                
+                <h4>Italian Serie A</h4>
+                <img src="dsa-ht2.png" alt="Serie A Analysis">
+                
+                <h4>German Bundesliga</h4>
+                <img src="dsa-ht6.png" alt="Bundesliga Analysis">
+                
+                <h4>French Ligue 1</h4>
+                <img src="dsa-ht5.png" alt="Ligue 1 Analysis">
+                
+                <h4>Turkish Süper Lig</h4>
+                <img src="dsa-ht4.png" alt="Süper Lig Analysis">
+            </div>
 
-        <div id="supplementary" class="section">
-            <h1>Supplementary Hypothesis Testing</h1>
-            <p>To deliver a 360-degree exploratory analysis of our dataset, we formulated three additional socio-economic hypotheses. These tests evaluate the deeper connection between financial gaps, stadium dynamics, capital distribution, and time.</p>
-            
-            <h3>Supplementary Test 1: Financial Gap vs. Average Stadium Attendance</h3>
-            <p><strong>Hypotheses:</strong><br>
-            • <strong>H0:</strong> There is no linear correlation between a league's internal financial gap and its average stadium attendance.<br>
-            • <strong>H1:</strong> There is a statistically significant linear correlation between a league's internal financial gap and its average stadium attendance.</p>
-            <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.6941 <br> P-value: 0.0000</p>
-            <p><strong>Conclusion:</strong> We strongly reject H0. This counter-intuitive result proves that wider financial gaps ($r = 0.6941$) strongly correlate with higher stadium attendance. Elite concentration of wealth allows top clubs to build superstar rosters, enhancing the global spectacle and acting as a physical crowd-puller despite reduced competitive parity.</p>
-            <img src="dsa-oht1.png" alt="Financial Gap vs Attendance Graph">
+            <div id="supplementary" class="section">
+                <h1>Supplementary Hypothesis Testing</h1>
+                <p>To deliver a 360-degree exploratory analysis of our dataset, we formulated three additional socio-economic hypotheses. These tests evaluate the deeper connection between financial gaps, stadium dynamics, capital distribution, and time.</p>
+                
+                <h3>Supplementary Test 1: Financial Gap vs. Average Stadium Attendance</h3>
+                <p><strong>Hypotheses:</strong><br>
+                • <strong>H0:</strong> There is no linear correlation between a league's internal financial gap and its average stadium attendance.<br>
+                • <strong>H1:</strong> There is a statistically significant linear correlation between a league's internal financial gap and its average stadium attendance.</p>
+                <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.6941 <br> P-value: 0.0000</p>
+                <p><strong>Conclusion:</strong> We strongly reject H0. This counter-intuitive result proves that wider financial gaps ($r = 0.6941$) strongly correlate with higher stadium attendance. Elite concentration of wealth allows top clubs to build superstar rosters, enhancing the global spectacle and acting as a physical crowd-puller despite reduced competitive parity.</p>
+                <img src="dsa-oht1.png" alt="Financial Gap vs Attendance Graph">
 
-            <h3>Supplementary Test 2: Total League Market Value vs. Internal Inequality (Trickle-Down Analysis)</h3>
-            <p><strong>Hypotheses:</strong><br>
-            • <strong>H0:</strong> There is no linear correlation between a league's total market value and its internal financial inequality (standard deviation).<br>
-            • <strong>H1:</strong> There is a statistically significant linear correlation.</p>
-            <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.8434 <br> P-value: &lt; 0.0001 (2.74e-17)</p>
-            <p><strong>Conclusion:</strong> We strongly reject H0. A massive correlation ($r = 0.8434$) debunks the "trickle-down" theory in football economics. As a league grows in total value, the new capital is disproportionately captured by the elite clubs at the top, increasing the internal standard deviation and heavily polarizing the domestic system.</p>
-            <img src="dsa-oht2.png" alt="Trickle-Down Analysis Graph">
+                <h3>Supplementary Test 2: Total League Market Value vs. Internal Inequality (Trickle-Down Analysis)</h3>
+                <p><strong>Hypotheses:</strong><br>
+                • <strong>H0:</strong> There is no linear correlation between a league's total market value and its internal financial inequality (standard deviation).<br>
+                • <strong>H1:</strong> There is a statistically significant linear correlation.</p>
+                <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.8434 <br> P-value: &lt; 0.0001 (2.74e-17)</p>
+                <p><strong>Conclusion:</strong> We strongly reject H0. A massive correlation ($r = 0.8434$) debunks the "trickle-down" theory in football economics. As a league grows in total value, the new capital is disproportionately captured by the elite clubs at the top, increasing the internal standard deviation and heavily polarizing the domestic system.</p>
+                <img src="dsa-oht2.png" alt="Trickle-Down Analysis Graph">
 
-            <h3>Supplementary Test 3: Temporal Shift Analysis (The Financial Gap Over Time)</h3>
-            <p><strong>Hypotheses:</strong><br>
-            • <strong>H0:</strong> There is no linear correlation between the passage of time (Years) and the internal financial gap within football leagues.<br>
-            • <strong>H1:</strong> There is a statistically significant linear correlation indicating the gap changes over time.</p>
-            <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.3384 <br> P-value: 0.0082</p>
-            <p><strong>Conclusion:</strong> We confidently reject H0. The positive trend ($r = 0.3384$) mathematically verifies that the financial divide is not static—it is actively compounding and worsening year-over-year, highlighting a systemic failure in current financial governance models.</p>
-            <img src="dsa-oht3.png" alt="Temporal Shift Analysis Graph">
-        </div>
+                <h3>Supplementary Test 3: Temporal Shift Analysis (The Financial Gap Over Time)</h3>
+                <p><strong>Hypotheses:</strong><br>
+                • <strong>H0:</strong> There is no linear correlation between the passage of time (Years) and the internal financial gap within football leagues.<br>
+                • <strong>H1:</strong> There is a statistically significant linear correlation indicating the gap changes over time.</p>
+                <p><strong>Test Results:</strong><br> Pearson Correlation Coefficient (r): 0.3384 <br> P-value: 0.0082</p>
+                <p><strong>Conclusion:</strong> We confidently reject H0. The positive trend ($r = 0.3384$) mathematically verifies that the financial divide is not static—it is actively compounding and worsening year-over-year, highlighting a systemic failure in current financial governance models.</p>
+                <img src="dsa-oht3.png" alt="Temporal Shift Analysis Graph">
+            </div>
 
-        <div id="ml" class="section">
-            <h1>Machine Learning & Predictive Modeling</h1>
-            
-            <h3>1. Initial Attempt: Predicting Digital Interest</h3>
-            <p>Our first model attempted to use the financial gap to predict global digital interest. As seen in our initial results, this approach yielded negative R² scores. This empirically proved that global digital popularity is influenced by complex, external factors.</p>
-            <img src="dsa-ml1.png" alt="Initial ML Results">
-            
-            <h3>2. Pivot & Optimization: Predicting Stadium Attendance</h3>
-            <p>Based on project feedback, we shifted our target variable. Our new objective was to predict the <strong>Average Stadium Attendance</strong> using Total Market Value and Google Interest.</p>
-            <img src="dsa-ml2.png" alt="Decision Tree Structure">
-            
-            <h3>3. Final Results</h3>
-            <p>This alternative model demonstrated remarkable predictive power. Our <strong>Decision Tree Regressor</strong> perfectly captured the non-linear relationships in the data, achieving an impressive <strong>R² Score of 0.8143</strong>.</p>
-            <img src="dsa-ml3.png" alt="Final Prediction Results">
+            <div id="ml" class="section">
+                <h1>Machine Learning & Predictive Modeling</h1>
+                
+                <h3>1. Initial Attempt: Predicting Digital Interest</h3>
+                <p>Our first model attempted to use the financial gap to predict global digital interest. As seen in our initial results, this approach yielded negative R² scores. This empirically proved that global digital popularity is influenced by complex, external factors.</p>
+                <img src="dsa-ml1.png" alt="Initial ML Results">
+                
+                <h3>2. Pivot & Optimization: Predicting Stadium Attendance</h3>
+                <p>Based on project feedback, we shifted our target variable. Our new objective was to predict the <strong>Average Stadium Attendance</strong> using Total Market Value and Google Interest.</p>
+                <img src="dsa-ml2.png" alt="Decision Tree Structure">
+                
+                <h3>3. Final Results</h3>
+                <p>This alternative model demonstrated remarkable predictive power. Our <strong>Decision Tree Regressor</strong> perfectly captured the non-linear relationships in the data, achieving an impressive <strong>R² Score of 0.8143</strong>.</p>
+                <img src="dsa-ml3.png" alt="Final Prediction Results">
 
-            <h3>4. Advanced Model Validation & Diagnostics</h3>
-            <p>To eliminate selection bias and ensure our model has robust predictive power on unseen data, we integrated two advanced verification methods: Shuffled 5-Fold Cross-Validation and Feature Importance diagnostics.</p>
-            
-            <h4>Shuffled 5-Fold Cross-Validation</h4>
-            <p><strong>Mean R² Stability Score:</strong> 0.6326 (63.26%)<br><strong>Standard Deviation (σ):</strong> 0.1401</p>
-            <p>Given the compact nature of our macroeconomic time-series dataset (60 aggregated rows), a cross-validated score of ~63.3% mathematically confirms that our Decision Tree model generalizes patterns solidly across randomized splits and distinct eras, without overfitting to an arbitrary train-test partition.</p>
-            
-            <h4>Feature Importance Analysis</h4>
-            <p>We extracted the baseline Gini importance metrics from the trained Decision Tree to see what primary macro-variable holds the highest weight when forecasting matchday attendance:</p>
-            <ul>
-                <li><strong>Total League Market Value:</strong> 88.93% predictive importance</li>
-                <li><strong>Google Search Interest:</strong> 11.07% predictive importance</li>
-            </ul>
-            <p>This diagnostic test yields an absolute socio-economic conclusion: <strong>Total league wealth is the overwhelming engine behind physical stadium presence</strong>. While online search traffic represents global curiosity and digital media scrolling, the actual physical commitment of sitting in a stadium seat is strictly bound to the financial caliber, stadium infrastructure, and star power of the league.</p>
-            <img src="dsa-ml4.png" alt="Feature Importance Analysis Graph">
-        </div>
+                <h3>4. Advanced Model Validation & Diagnostics</h3>
+                <p>To eliminate selection bias and ensure our model has robust predictive power on unseen data, we integrated two advanced verification methods: Shuffled 5-Fold Cross-Validation and Feature Importance diagnostics.</p>
+                
+                <h4>Shuffled 5-Fold Cross-Validation</h4>
+                <p><strong>Mean R² Stability Score:</strong> 0.6326 (63.26%)<br><strong>Standard Deviation (σ):</strong> 0.1401</p>
+                <p>Given the compact nature of our macroeconomic time-series dataset (60 aggregated rows), a cross-validated score of ~63.3% mathematically confirms that our Decision Tree model generalizes patterns solidly across randomized splits and distinct eras, without overfitting to an arbitrary train-test partition.</p>
+                
+                <h4>Feature Importance Analysis</h4>
+                <p>We extracted the baseline Gini importance metrics from the trained Decision Tree to see what primary macro-variable holds the highest weight when forecasting matchday attendance:</p>
+                <ul>
+                    <li><strong>Total League Market Value:</strong> 88.93% predictive importance</li>
+                    <li><strong>Google Search Interest:</strong> 11.07% predictive importance</li>
+                </ul>
+                <p>This diagnostic test yields an absolute socio-economic conclusion: <strong>Total league wealth is the overwhelming engine behind physical stadium presence</strong>. While online search traffic represents global curiosity and digital media scrolling, the actual physical commitment of sitting in a stadium seat is strictly bound to the financial caliber, stadium infrastructure, and star power of the league.</p>
+                <img src="dsa-ml4.png" alt="Feature Importance Analysis Graph">
+            </div>
 
-        <div class="footer">
-            Created by Yusuf | Sabancı University DSA210 Term Project (2025-2026 Spring)
+            <div class="footer">
+                Created by Yusuf | Sabancı University DSA210 Term Project (2025-2026 Spring)
+            </div>
         </div>
     </div>
 
     <script>
-        function showSection(sectionId) {
+        function showSection(sectionId, sectionName) {
             document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
             document.querySelectorAll('.tab-link').forEach(link => link.classList.remove('active'));
             document.getElementById(sectionId).classList.add('active');
             document.getElementById('tab-' + sectionId).classList.add('active');
-            window.scrollTo(0,0);
+            
+            // Üst bardaki ismi değiştir
+            document.getElementById('breadcrumb-current').innerText = sectionName;
+            
+            // Sayfanın en üstüne kaydır
+            document.getElementById('main-area').scrollTo(0,0);
         }
     </script>
 </body>
