@@ -141,6 +141,15 @@
             width: 100%;
         }
 
+        .content a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .content a:hover {
+            text-decoration: underline;
+        }
+
         .section { display: none; }
         .section.active { display: block; animation: fadeIn 0.4s ease-out; }
 
@@ -155,7 +164,7 @@
         ul, ol { line-height: 1.7; font-size: 1.05rem; padding-left: 25px; margin-bottom: 16px; }
         li { margin-bottom: 8px; }
         
-        /* Görseller (Grafikler karanlık modda daha iyi dursun diye şeffaflık eklendi) */
+        /* Görseller */
         img { 
             max-width: 100%; 
             height: auto; 
@@ -186,7 +195,7 @@
             line-height: 1.5;
             overflow-x: auto;
             margin: 20px 0;
-            color: #8b949e; /* Kod içindeki yazı rengi */
+            color: #8b949e;
         }
         
         .scrollable-table-container {
@@ -235,6 +244,7 @@
             <a onclick="showSection('stats', 'Statistical Analysis')" class="tab-link" id="tab-stats">📊 Statistical Analysis</a>
             <a onclick="showSection('supplementary', 'Supplementary Tests')" class="tab-link" id="tab-supplementary">🧪 Supplementary Tests</a>
             <a onclick="showSection('ml', 'Machine Learning')" class="tab-link" id="tab-ml">🤖 Machine Learning</a>
+            <a onclick="showSection('references', 'References & AI Usage')" class="tab-link" id="tab-references">📚 References & AI</a>
         </div>
     </div>
 
@@ -501,6 +511,35 @@ print("🔥 MASTER COMPREHENSIVE FOOTBALL DATASET SUCCESSFULLY PERSISTED!")</div
                 </ul>
                 <p>This diagnostic test yields an absolute socio-economic conclusion: <strong>Total league wealth is the overwhelming engine behind physical stadium presence</strong>. While online search traffic represents global curiosity and digital media scrolling, the actual physical commitment of sitting in a stadium seat is strictly bound to the financial caliber, stadium infrastructure, and star power of the league.</p>
                 <img src="dsa-ml4.png" alt="Feature Importance Analysis Graph">
+            </div>
+
+            <div id="references" class="section">
+                <h1>References & AI Usage Transparency</h1>
+                <p>This project is built upon publicly available data and modern development tools. Below is the full list of data sources and a transparency report regarding the use of Artificial Intelligence during the development process.</p>
+
+                <h3>Data Sources</h3>
+                <ul>
+                    <li><strong>Transfermarkt:</strong> Primary source for club market values, historical league tables, and physical stadium attendance figures. <a href="https://www.transfermarkt.com" target="_blank">[Visit Website]</a></li>
+                    <li><strong>FBref (Sports Reference):</strong> Secondary verification for historical team points and championship margins. <a href="https://fbref.com" target="_blank">[Visit Website]</a></li>
+                    <li><strong>Google Trends:</strong> Sourced via the <code>pytrends</code> API to quantify global digital search interest over time. <a href="https://trends.google.com" target="_blank">[Visit Website]</a></li>
+                </ul>
+
+                <h3>AI Usage Transparency (Gemini)</h3>
+                <p>In accordance with modern academic and software engineering practices, Google's <strong>Gemini</strong> (Large Language Model) was utilized as an advanced programming assistant and structural sounding board throughout this project. Its primary contributions were strictly syntactic and formatting-based.</p>
+
+                <p><strong>Core Areas of AI Assistance:</strong></p>
+                <ol>
+                    <li><strong>Web Architecture:</strong> Generating the boilerplate HTML/CSS for this single-page application and implementing the responsive dark-mode Sphinx/Jupyter documentation theme.</li>
+                    <li><strong>Script Optimization:</strong> Refining the Python web-scraping (BeautifulSoup) and API integration (pytrends) scripts to handle timeouts and exceptions more robustly.</li>
+                    <li><strong>Academic Formatting:</strong> Assisting in translating raw statistical Python outputs (p-values, Cross-Validation metrics, R-squared values) into formal academic markdown reports for the final presentation.</li>
+                </ol>
+
+                <h4>Example Prompts Used During Development:</h4>
+                <div class="code-block" style="white-space: pre;">> "Create a dark-themed, responsive sidebar HTML/CSS layout inspired by Jupyter Book for a data science project."
+
+> "Write a Python script using BeautifulSoup to safely extract the average stadium attendance from the Transfermarkt footer, including a try-except block for connection timeouts."
+
+> "Here are my Decision Tree cross-validation scores: [0.55, 0.61, 0.70, 0.65, 0.64]. Help me write a brief academic interpretation of this stability metric for my final README report."</div>
             </div>
 
             <div class="footer">
