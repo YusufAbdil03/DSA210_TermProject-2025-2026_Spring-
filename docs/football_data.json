@@ -1,0 +1,9322 @@
+[
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 553.5,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 499.35,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 457.85,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 439.85,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 375.25,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 31,
+        "mv": 371.85,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 249.85,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 225.5,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 50,
+        "mv": 201.33,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 198.0,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 161.1,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 31,
+        "mv": 147.0,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 145.8,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 137.0,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 135.7,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 117.95,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 116.9,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 113.1,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 111.25,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Premier League",
+        "team": 49,
+        "mv": 99.9,
+        "att": 13855299,
+        "gi": 11.166666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 49,
+        "mv": 686.7,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 576.5,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 543.65,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 542.0,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 531.45,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 425.65,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 311.25,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 273.05,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 263.75,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 228.43,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 31,
+        "mv": 218.65,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 186.0,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 46,
+        "mv": 175.65,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 157.1,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 135.85,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 132.0,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 131.6,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 128.8,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 30,
+        "mv": 123.2,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2016,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 107.18,
+        "att": 13605946,
+        "gi": 14.666666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 32,
+        "mv": 1010.0,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 46,
+        "mv": 884.25,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 857.5,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 849.5,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 829.6,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 694.0,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 48,
+        "mv": 381.25,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 304.25,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 29,
+        "mv": 297.0,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 268.1,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 220.73,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 208.28,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 196.0,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 192.45,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 30,
+        "mv": 169.3,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 165.95,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 165.49,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 148.2,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 144.5,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2017,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 106.05,
+        "att": 14544093,
+        "gi": 14.083333333333334
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 47,
+        "mv": 1200.0,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 1170.0,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 54,
+        "mv": 1170.0,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 898.6,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 797.6,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 659.05,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 529.1,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 434.1,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 359.0,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 310.0,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 305.4,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 302.9,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 289.0,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 254.25,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 244.65,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 239.1,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 197.25,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 194.35,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 137.45,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 113.0,
+        "att": 14511485,
+        "gi": 20.33333333333333
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 1050.0,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 56,
+        "mv": 1000.0,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 806.8,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 705.85,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 670.45,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 607.65,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 420.55,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 32,
+        "mv": 411.1,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 320.33,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 303.6,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 272.18,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 252.48,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 231.7,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 210.75,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 200.78,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 199.6,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 189.33,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 163.88,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 145.33,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2019,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 138.6,
+        "att": 11322736,
+        "gi": 33.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 1040.0,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 969.65,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 889.2,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 770.05,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 703.5,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 619.25,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 511.2,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 510.6,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 450.3,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 53,
+        "mv": 430.7,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 336.4,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 46,
+        "mv": 290.4,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 282.8,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 255.35,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 239.75,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 238.1,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 193.85,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 149.85,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 141.15,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2020,
+        "league": "Premier League",
+        "team": 32,
+        "mv": 132.3,
+        "att": 13169590,
+        "gi": 28.75
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 1000.0,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 49,
+        "mv": 918.9,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 914.5,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 769.15,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 689.35,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 613.05,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 526.55,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 487.75,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 479.05,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 376.95,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 37,
+        "mv": 354.9,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 318.0,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 313.9,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 299.45,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 274.3,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 273.3,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 271.05,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 163.2,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 47,
+        "mv": 156.2,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2021,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 137.85,
+        "att": 15016444,
+        "gi": 36.16666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 1150.0,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 1000.0,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 994.95,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 48,
+        "mv": 847.75,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 811.85,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 649.1,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 541.6,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 529.8,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 509.55,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 43,
+        "mv": 497.65,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 490.7,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 465.6,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 46,
+        "mv": 419.95,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 413.15,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 50,
+        "mv": 376.25,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 371.2,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 47,
+        "mv": 345.15,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 323.05,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 47,
+        "mv": 295.1,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Premier League",
+        "team": 47,
+        "mv": 287.2,
+        "att": 15289751,
+        "gi": 49.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 1460.0,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 1200.0,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 56,
+        "mv": 1010.0,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 955.65,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 838.5,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 46,
+        "mv": 808.35,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 709.65,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 652.25,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 49,
+        "mv": 524.4,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 46,
+        "mv": 501.35,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 487.5,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 446.58,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 47,
+        "mv": 442.73,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 428.78,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 401.75,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 34,
+        "mv": 391.75,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 384.35,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 273.48,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 45,
+        "mv": 152.35,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2023,
+        "league": "Premier League",
+        "team": 46,
+        "mv": 140.9,
+        "att": 14651758,
+        "gi": 50.083333333333336
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 1360.0,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 58,
+        "mv": 1190.0,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 1160.0,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 950.95,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 49,
+        "mv": 825.0,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 777.3,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 41,
+        "mv": 680.55,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 36,
+        "mv": 677.53,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 49,
+        "mv": 667.58,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 526.85,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 518.6,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 33,
+        "mv": 481.3,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 44,
+        "mv": 433.05,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 38,
+        "mv": 427.85,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 29,
+        "mv": 400.7,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 39,
+        "mv": 363.23,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 28,
+        "mv": 362.35,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 42,
+        "mv": 310.05,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 35,
+        "mv": 270.1,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Premier League",
+        "team": 40,
+        "mv": 253.35,
+        "att": 15380351,
+        "gi": 44.16666666666666
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 726.0,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 714.3,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 418.5,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 254.0,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 230.3,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 28,
+        "mv": 148.0,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 28,
+        "mv": 140.6,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 119.4,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 28,
+        "mv": 91.1,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 77.95,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 71.5,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 62.2,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 61.75,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 56.6,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 56.4,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 53.2,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 53.1,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 49.6,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 49.1,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 32.2,
+        "att": 10629966,
+        "gi": 13.083333333333334
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 802.9,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 765.3,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 515.8,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 270.1,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 257.5,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 190.7,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 172.6,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 156.45,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 122.4,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 94.0,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 85.4,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 84.3,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 84.3,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 28,
+        "mv": 84.2,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 80.8,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 28,
+        "mv": 67.95,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 66.45,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 53.15,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 46.75,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2016,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 42.9,
+        "att": 10709466,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 1090.0,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 955.35,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 711.15,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 398.05,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 253.2,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 249.4,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 232.95,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 220.0,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 173.05,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 132.25,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 97.8,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 91.25,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 81.75,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 74.8,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 66.45,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 65.6,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 61.85,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 60.05,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 58.55,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2017,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 55.2,
+        "att": 10342948,
+        "gi": 11.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 1160.0,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 969.7,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 896.1,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 499.65,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 306.3,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 300.95,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 290.75,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 234.25,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 234.1,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 230.65,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 174.7,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 28,
+        "mv": 132.2,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 112.45,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 110.8,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 107.85,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 97.25,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 93.9,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 86.7,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 83.0,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2018,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 61.4,
+        "att": 10295016,
+        "gi": 17.5
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 42,
+        "mv": 930.28,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 913.75,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 720.15,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 427.8,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 347.55,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 294.75,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 244.35,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 211.75,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 208.68,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 175.45,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 167.0,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 156.05,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 109.7,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 106.75,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 90.5,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 87.78,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 64.68,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 62.78,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 56.58,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2019,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 53.75,
+        "att": 7863676,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 813.5,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 787.3,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 773.1,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 418.25,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 406.6,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 292.6,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 278.85,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 207.7,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 204.15,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 33,
+        "mv": 170.1,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 155.85,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 44,
+        "mv": 122.65,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 113.0,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 96.75,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 83.4,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 79.8,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 64.1,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 63.35,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 47.65,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2020,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 45.65,
+        "att": 8296552,
+        "gi": 23.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 770.75,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 47,
+        "mv": 735.6,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 43,
+        "mv": 661.8,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 408.9,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 43,
+        "mv": 385.0,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 376.95,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 44,
+        "mv": 310.6,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 259.0,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 226.05,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 43,
+        "mv": 208.68,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 131.6,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 120.0,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 108.45,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 103.75,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 42,
+        "mv": 77.9,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 74.15,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 72.98,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 67.8,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 67.2,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2021,
+        "league": "LaLiga",
+        "team": 43,
+        "mv": 65.35,
+        "att": 8729429,
+        "gi": 38.0
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 923.45,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 836.8,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 534.3,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 441.7,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 43,
+        "mv": 363.5,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 249.78,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 246.4,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 42,
+        "mv": 232.58,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 222.45,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 150.05,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 139.9,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 138.8,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 118.9,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 116.5,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 114.2,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 107.0,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 29,
+        "mv": 103.4,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 90.75,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 67.5,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "LaLiga",
+        "team": 47,
+        "mv": 65.6,
+        "att": 11238224,
+        "gi": 37.66666666666666
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 1140.0,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 38,
+        "mv": 916.2,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 498.5,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 42,
+        "mv": 458.45,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 297.9,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 295.65,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 252.5,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 244.73,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 49,
+        "mv": 228.75,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 42,
+        "mv": 224.88,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 149.3,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 46,
+        "mv": 141.1,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 133.0,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 123.7,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 112.4,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 32,
+        "mv": 105.35,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 99.4,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 35,
+        "mv": 87.7,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 30,
+        "mv": 63.95,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2023,
+        "league": "LaLiga",
+        "team": 44,
+        "mv": 60.7,
+        "att": 11048904,
+        "gi": 45.833333333333336
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 42,
+        "mv": 1350.0,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 1080.0,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 41,
+        "mv": 542.5,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 375.35,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 39,
+        "mv": 345.05,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 46,
+        "mv": 291.7,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 264.25,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 44,
+        "mv": 215.55,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 44,
+        "mv": 183.9,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 46,
+        "mv": 153.1,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 36,
+        "mv": 130.9,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 42,
+        "mv": 117.3,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 116.98,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 113.28,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 92.35,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 37,
+        "mv": 87.7,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 31,
+        "mv": 84.88,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 43,
+        "mv": 81.45,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 34,
+        "mv": 68.0,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2024,
+        "league": "LaLiga",
+        "team": 40,
+        "mv": 47.98,
+        "att": 11406042,
+        "gi": 62.0
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 596.05,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 352.95,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 270.43,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 241.3,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 225.2,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 29,
+        "mv": 186.15,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 90.2,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 85.15,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 81.18,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 78.93,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 76.6,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 75.83,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 25,
+        "mv": 68.63,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 64.68,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 63.2,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 60.83,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 29,
+        "mv": 35.65,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2015,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 25.15,
+        "att": 13249879,
+        "gi": 10.25
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 562.55,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 390.65,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 265.03,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 217.25,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 43,
+        "mv": 203.08,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 176.33,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 162.18,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 138.63,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 116.15,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 96.73,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 96.53,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 41,
+        "mv": 89.45,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 86.73,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 80.48,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 72.3,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 65.85,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 38.63,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2016,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 25.98,
+        "att": 12707133,
+        "gi": 7.75
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 811.85,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 574.2,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 28,
+        "mv": 373.3,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 27,
+        "mv": 357.35,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 29,
+        "mv": 274.35,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 212.75,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 193.25,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 143.6,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 134.7,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 131.45,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 126.15,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 107.15,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 100.6,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 100.45,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 98.35,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 92.95,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 91.73,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2017,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 62.4,
+        "att": 13665118,
+        "gi": 9.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 784.88,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 643.25,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 479.0,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 429.4,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 336.25,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 47,
+        "mv": 313.4,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 264.3,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 229.25,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 221.3,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 207.63,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 168.05,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 159.73,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 143.75,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 40,
+        "mv": 139.25,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 122.1,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 94.95,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 91.43,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2018,
+        "league": "Bundesliga",
+        "team": 29,
+        "mv": 54.4,
+        "att": 13300905,
+        "gi": 11.0
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 777.33,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 654.05,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 570.48,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 29,
+        "mv": 398.95,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 254.7,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 226.05,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 221.58,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 42,
+        "mv": 217.2,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 208.98,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 207.6,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 135.13,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 122.65,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 121.58,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 112.95,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 98.48,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 71.78,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 41.2,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 28.9,
+        "att": 9113406,
+        "gi": 18.916666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 45,
+        "mv": 858.23,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 628.4,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 574.95,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 373.25,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 300.75,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 269.15,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 256.83,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 228.88,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 228.15,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 189.25,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 163.3,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 139.1,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 45,
+        "mv": 123.05,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 118.2,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 111.98,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 93.05,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 82.05,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2020,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 56.73,
+        "att": 7773861,
+        "gi": 19.08333333333333
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 790.33,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 44,
+        "mv": 558.98,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 498.95,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 455.05,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 269.3,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 236.8,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 228.75,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 40,
+        "mv": 211.43,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 176.35,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 174.23,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 45,
+        "mv": 155.78,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 131.03,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 40,
+        "mv": 115.9,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 99.28,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 95.3,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 65.85,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 52.25,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 36.95,
+        "att": 6434317,
+        "gi": 26.666666666666668
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 948.95,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 567.55,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 29,
+        "mv": 486.4,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 452.5,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 324.55,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 241.68,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 238.3,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 29,
+        "mv": 200.95,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 178.8,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 157.95,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 151.05,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 135.9,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 42,
+        "mv": 132.23,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 115.65,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 41,
+        "mv": 94.0,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 89.5,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 43,
+        "mv": 87.78,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2022,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 53.7,
+        "att": 13155780,
+        "gi": 25.58333333333333
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 965.15,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 658.35,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 32,
+        "mv": 545.4,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 494.8,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 346.63,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 46,
+        "mv": 326.65,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 206.45,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 180.35,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 176.0,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 165.23,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 160.95,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 142.88,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 140.8,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 35,
+        "mv": 134.93,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 81.45,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 28,
+        "mv": 66.45,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 64.53,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2023,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 38.7,
+        "att": 12089058,
+        "gi": 37.25
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 43,
+        "mv": 953.55,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 34,
+        "mv": 623.35,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 37,
+        "mv": 513.7,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 43,
+        "mv": 508.28,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 431.25,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 365.23,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 39,
+        "mv": 296.3,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 187.5,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 48,
+        "mv": 187.1,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 186.2,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 175.13,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 36,
+        "mv": 158.88,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 136.05,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 132.0,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 31,
+        "mv": 72.53,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 38,
+        "mv": 65.78,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 33,
+        "mv": 57.1,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Bundesliga",
+        "team": 30,
+        "mv": 47.13,
+        "att": 11830600,
+        "gi": 39.91666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 440.0,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 332.9,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 34,
+        "mv": 321.93,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 294.28,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 213.83,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 190.53,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 175.3,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 126.53,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 47,
+        "mv": 117.55,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 97.0,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 93.0,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 89.83,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 78.45,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 75.23,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 74.6,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 68.68,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 52.05,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 49.78,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 47.8,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2015,
+        "league": "Serie A",
+        "team": 35,
+        "mv": 38.3,
+        "att": 8441087,
+        "gi": 3.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 497.18,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 387.3,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 47,
+        "mv": 354.68,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 328.3,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 254.33,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 226.45,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 217.08,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 51,
+        "mv": 162.35,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 161.7,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 145.25,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 117.58,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 108.18,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 101.95,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 95.0,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 61.08,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 55.45,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 50,
+        "mv": 48.1,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 45.88,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 41.1,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2016,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 36.7,
+        "att": 8347296,
+        "gi": 3.8333333333333335
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 33,
+        "mv": 653.15,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 504.25,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 34,
+        "mv": 487.28,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 47,
+        "mv": 469.1,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 408.78,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 407.05,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 237.33,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 207.95,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 190.45,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 51,
+        "mv": 175.53,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 135.13,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 126.78,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 108.03,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 103.55,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 98.58,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 63.55,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 57.83,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 56.5,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 36,
+        "mv": 55.23,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 47.88,
+        "att": 9417651,
+        "gi": 4.833333333333333
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 59,
+        "mv": 871.05,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 54,
+        "mv": 646.8,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 60,
+        "mv": 617.93,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 45,
+        "mv": 578.48,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 57,
+        "mv": 459.05,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 88,
+        "mv": 367.68,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 56,
+        "mv": 315.33,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 57,
+        "mv": 291.15,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 59,
+        "mv": 242.05,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 62,
+        "mv": 239.23,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 59,
+        "mv": 216.75,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 56,
+        "mv": 201.2,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 69,
+        "mv": 191.73,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 49,
+        "mv": 155.38,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 119.68,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 59,
+        "mv": 105.6,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 51,
+        "mv": 97.4,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 70,
+        "mv": 95.75,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 68,
+        "mv": 54.7,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 54.53,
+        "att": 9473709,
+        "gi": 10.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 661.88,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 34,
+        "mv": 606.05,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 33,
+        "mv": 548.28,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 404.33,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 36,
+        "mv": 392.73,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 34,
+        "mv": 303.88,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 302.23,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 291.43,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 167.98,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 167.83,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 163.55,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 142.38,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 135.28,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 129.65,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 128.75,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 121.08,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 112.53,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 33,
+        "mv": 83.23,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 73.63,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2019,
+        "league": "Serie A",
+        "team": 47,
+        "mv": 52.33,
+        "att": 6806517,
+        "gi": 15.666666666666666
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 663.9,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 45,
+        "mv": 633.3,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 547.78,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 32,
+        "mv": 530.2,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 430.0,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 395.65,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 326.33,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 286.8,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 241.74,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 187.83,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 175.28,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 173.0,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 157.21,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 45,
+        "mv": 153.6,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 53,
+        "mv": 128.7,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 34,
+        "mv": 127.18,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 111.93,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 71.68,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 52.75,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Serie A",
+        "team": 36,
+        "mv": 50.13,
+        "att": 6868048,
+        "gi": 22.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 642.5,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 36,
+        "mv": 558.55,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 546.95,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 477.23,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 398.75,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 381.25,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 325.8,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 35,
+        "mv": 264.53,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 251.0,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 223.4,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 45,
+        "mv": 186.2,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 162.98,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 142.3,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 134.53,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 128.55,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 126.5,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 47,
+        "mv": 121.28,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 51,
+        "mv": 80.98,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 34,
+        "mv": 78.5,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2021,
+        "league": "Serie A",
+        "team": 51,
+        "mv": 70.56,
+        "att": 6929579,
+        "gi": 35.916666666666664
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 31,
+        "mv": 654.08,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 35,
+        "mv": 567.55,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 36,
+        "mv": 545.1,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 483.13,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 47,
+        "mv": 361.38,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 338.38,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 33,
+        "mv": 266.43,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 258.8,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 35,
+        "mv": 232.2,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 197.19,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 188.86,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 153.63,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 135.7,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 125.53,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 123.89,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 45,
+        "mv": 118.35,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 115.81,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 105.2,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 83.78,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 82.96,
+        "att": 11224113,
+        "gi": 42.66666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 35,
+        "mv": 654.85,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 571.41,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 35,
+        "mv": 515.0,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 504.53,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 436.05,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 349.3,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 340.4,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 284.1,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 45,
+        "mv": 232.73,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 225.45,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 195.4,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 45,
+        "mv": 170.06,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 143.43,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 50,
+        "mv": 140.7,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 139.54,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 108.4,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 107.73,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 47,
+        "mv": 102.33,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 50,
+        "mv": 94.6,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2023,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 92.23,
+        "att": 11748187,
+        "gi": 39.5
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 741.85,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 43,
+        "mv": 628.73,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 581.7,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 501.2,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 37,
+        "mv": 500.45,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 39,
+        "mv": 390.3,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 368.13,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 38,
+        "mv": 340.65,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 294.9,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 219.28,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 51,
+        "mv": 203.43,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 198.9,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 48,
+        "mv": 175.35,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 40,
+        "mv": 175.11,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 44,
+        "mv": 113.43,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 42,
+        "mv": 107.35,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 52,
+        "mv": 106.58,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 46,
+        "mv": 95.83,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 41,
+        "mv": 95.6,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Serie A",
+        "team": 36,
+        "mv": 93.63,
+        "att": 11662951,
+        "gi": 36.91666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 436.3,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 227.4,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 166.3,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 129.5,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 97.2,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 94.15,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 42,
+        "mv": 90.7,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 70.95,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 70.8,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 58.05,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 44.4,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 42.95,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 42.9,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 39.3,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 36.8,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 33.5,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 32.35,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 30.7,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 24.25,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 18.4,
+        "att": 7947438,
+        "gi": 0.8333333333333334
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 519.0,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 47,
+        "mv": 309.55,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 211.35,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 132.8,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 119.65,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 88.9,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 42,
+        "mv": 85.03,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 46,
+        "mv": 83.9,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 43,
+        "mv": 80.9,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 77.3,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 61.1,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 60.95,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 50.9,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 46.08,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 42.5,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 37.55,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 36.65,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 36.45,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 33.1,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2016,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 31.2,
+        "att": 7962103,
+        "gi": 1.0
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 900.1,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 529.8,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 363.8,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 29,
+        "mv": 236.8,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 204.1,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 155.45,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 131.25,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 28,
+        "mv": 110.45,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 106.88,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 105.7,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 96.75,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 71.85,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 70.3,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 69.85,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 69.55,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 60.1,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 51.9,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 44,
+        "mv": 51.2,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 45.6,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2017,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 45.05,
+        "att": 8559423,
+        "gi": 1.6666666666666667
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 1010.0,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 467.95,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 57,
+        "mv": 385.83,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 267.55,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 258.35,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 183.2,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 43,
+        "mv": 179.0,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 168.45,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 42,
+        "mv": 131.25,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 119.5,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 113.25,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 109.85,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 98.0,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 88.15,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 86.95,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 79.7,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 70.65,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 70.5,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 67.55,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2018,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 65.8,
+        "att": 8665265,
+        "gi": 2.25
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 874.15,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 384.55,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 331.03,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 247.78,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 216.15,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 173.45,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 171.88,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 125.35,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 106.15,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 104.83,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 91.13,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 89.48,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 81.68,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 81.68,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 71.88,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 61.93,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 54.1,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 50.23,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 49.65,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2019,
+        "league": "Ligue 1",
+        "team": 28,
+        "mv": 47.78,
+        "att": 6285741,
+        "gi": 4.166666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 805.0,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 431.35,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 370.35,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 323.2,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 297.5,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 247.95,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 236.1,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 43,
+        "mv": 154.5,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 113.85,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 111.65,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 109.65,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 105.7,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 105.18,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 104.3,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 103.5,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 103.23,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 94.75,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 72.88,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 65.63,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2020,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 60.4,
+        "att": 7088120,
+        "gi": 4.916666666666667
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 875.15,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 397.7,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 396.0,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 306.88,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 305.35,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 284.7,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 266.05,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 154.05,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 149.4,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 144.6,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 120.05,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 54,
+        "mv": 116.85,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 112.65,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 44,
+        "mv": 105.65,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 30,
+        "mv": 103.15,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 91.05,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 89.5,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 50,
+        "mv": 73.2,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 61.3,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2021,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 55.1,
+        "att": 7890499,
+        "gi": 23.166666666666668
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 891.1,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 387.75,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 368.3,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 350.95,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 331.55,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 310.8,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 247.95,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 238.2,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 42,
+        "mv": 175.45,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 159.05,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 142.9,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 123.55,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 119.28,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 104.8,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 32,
+        "mv": 76.65,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 76.3,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 44,
+        "mv": 71.8,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 42,
+        "mv": 54.8,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 33,
+        "mv": 48.0,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 27.0,
+        "att": 9009458,
+        "gi": 14.166666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 1020.0,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 398.55,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 375.35,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 328.9,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 49,
+        "mv": 311.4,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 305.95,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 268.78,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 205.6,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 157.7,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 145.58,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 145.2,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 134.55,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 45,
+        "mv": 131.85,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 43,
+        "mv": 125.9,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 31,
+        "mv": 115.15,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 35,
+        "mv": 72.5,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 65.4,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2023,
+        "league": "Ligue 1",
+        "team": 36,
+        "mv": 61.35,
+        "att": 8187990,
+        "gi": 14.333333333333334
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 1140.0,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 411.15,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 358.0,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 336.6,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 309.85,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 42,
+        "mv": 307.85,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 43,
+        "mv": 294.7,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 41,
+        "mv": 227.05,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 43,
+        "mv": 221.45,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 152.5,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 121.6,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 34,
+        "mv": 114.65,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 37,
+        "mv": 110.65,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 86.9,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 39,
+        "mv": 81.6,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 42,
+        "mv": 70.55,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 40,
+        "mv": 65.85,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Ligue 1",
+        "team": 38,
+        "mv": 51.65,
+        "att": 8551612,
+        "gi": 9.916666666666666
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 168.8,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 127.95,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 117.23,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 50,
+        "mv": 107.3,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 81.0,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 33,
+        "mv": 55.65,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 30,
+        "mv": 54.1,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 48,
+        "mv": 47.55,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 44.6,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 32,
+        "mv": 39.35,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 38.58,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 38.3,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 37.35,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 29,
+        "mv": 36.65,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 33,
+        "mv": 36.05,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 34.75,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 32.05,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2015,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 21.68,
+        "att": 2578503,
+        "gi": 8.083333333333334
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 45,
+        "mv": 136.8,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 103.95,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 88.35,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 60.0,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 32,
+        "mv": 59.85,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 48.3,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 35.7,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 34.78,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 34.35,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 33.2,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 32.55,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 30,
+        "mv": 31.8,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 31.78,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 29.0,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 28.75,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 24.68,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 22.58,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2016,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 15.88,
+        "att": 2605602,
+        "gi": 7.583333333333333
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 122.55,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 96.05,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 74.93,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 64.55,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 33,
+        "mv": 51.8,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 31.9,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 30.15,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 29.18,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 26.28,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 25.5,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 24.6,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 32,
+        "mv": 23.8,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 22.93,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 33,
+        "mv": 22.65,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 18.73,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 32,
+        "mv": 18.6,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 16.9,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2017,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 14.75,
+        "att": 2441172,
+        "gi": 12.416666666666666
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 129.8,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 103.5,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 77.75,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 60.3,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 54.63,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 39.45,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 34.35,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 45,
+        "mv": 29.5,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 28.15,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 24.75,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 30,
+        "mv": 23.1,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 22.53,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 21.23,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 50,
+        "mv": 21.08,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 19.38,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 19.25,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 16.03,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2018,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 11.78,
+        "att": 3549563,
+        "gi": 22.25
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 105.13,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 87.03,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 75.9,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 63.25,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 53.85,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 48,
+        "mv": 30.0,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 31,
+        "mv": 27.3,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 22.68,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 22.33,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 58,
+        "mv": 21.58,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 21.3,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 20.23,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 33,
+        "mv": 20.1,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 49,
+        "mv": 19.15,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 17.23,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 15.95,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 13.75,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2019,
+        "league": "Süper Lig",
+        "team": 46,
+        "mv": 11.85,
+        "att": 3120890,
+        "gi": 27.416666666666668
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 115.45,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 107.63,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 104.5,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 99.13,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 69.23,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 32,
+        "mv": 49.68,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 38.88,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 38.45,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 37.53,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 36.15,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 33,
+        "mv": 30.7,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 30.7,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 30.23,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 29.88,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 28.48,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 27.48,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 23.03,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 20.7,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 16.23,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 15.53,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2020,
+        "league": "Süper Lig",
+        "team": 45,
+        "mv": 14.18,
+        "att": 3134754,
+        "gi": 28.25
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 152.13,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 46,
+        "mv": 130.63,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 123.88,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 101.53,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 62.88,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 52.28,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 33,
+        "mv": 46.9,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 46.0,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 43.15,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 40.9,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 37.65,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 36.18,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 36.15,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 31.7,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 30.58,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 35,
+        "mv": 30.28,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 49,
+        "mv": 24.68,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 24.0,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 49,
+        "mv": 20.38,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2021,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 14.25,
+        "att": 3148619,
+        "gi": 52.833333333333336
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 202.65,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 193.23,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 135.3,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 127.7,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 75.1,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 57.65,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 48.58,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 43.28,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 41.6,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 51,
+        "mv": 40.48,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 40.33,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 39.23,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 31.05,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 28.93,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 30,
+        "mv": 24.1,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 23.03,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 45,
+        "mv": 18.43,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 18.38,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2022,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 12.05,
+        "att": 3888609,
+        "gi": 41.41666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 46,
+        "mv": 255.65,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 55,
+        "mv": 218.3,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 49,
+        "mv": 146.88,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 118.38,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 54.15,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 52,
+        "mv": 53.3,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 34.88,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 34.15,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 34.05,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 33.38,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 32.53,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 45,
+        "mv": 32.33,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 32.28,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 31.48,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 47,
+        "mv": 30.38,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 28.98,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 28.9,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 38,
+        "mv": 24.03,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 42,
+        "mv": 23.38,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2023,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 12.93,
+        "att": 4228303,
+        "gi": 43.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 49,
+        "mv": 317.28,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 269.83,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 137.38,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 49,
+        "mv": 117.68,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 39,
+        "mv": 65.18,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 53.6,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 36,
+        "mv": 40.73,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 35.48,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 49,
+        "mv": 35.3,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 37,
+        "mv": 33.48,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 26.53,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 24.06,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 23.58,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 41,
+        "mv": 22.38,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 40,
+        "mv": 22.08,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 43,
+        "mv": 20.5,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 44,
+        "mv": 19.95,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 34,
+        "mv": 17.7,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    },
+    {
+        "year": 2024,
+        "league": "Süper Lig",
+        "team": 45,
+        "mv": 17.2,
+        "att": 3925748,
+        "gi": 42.91666666666666
+    }
+]
