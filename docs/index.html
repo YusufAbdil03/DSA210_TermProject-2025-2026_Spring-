@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Financial Disparity | DSA210</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-        /* GECE MODU (DARK THEME) RENK PALETİ */
+        /* PREMIUM MODERN DARK THEME (Vercel/Linear Style) */
         :root {
-            --bg-color: #0d1117;           
-            --sidebar-bg: #161b22;         
-            --text-color: #c9d1d9;         
-            --text-muted: #8b949e;         
-            --border-color: #30363d;       
-            --primary-color: #58a6ff;      
-            --hover-bg: #21262d;           
-            --code-bg: #0d1117;            
-            --table-header-bg: #21262d;    
+            --bg-color: #050505;           
+            --sidebar-bg: #0a0a0a;         
+            --card-bg: #111111;
+            --text-color: #ededed;         
+            --text-muted: #a1a1aa;         
+            --border-color: #27272a;       
+            --primary-color: #38bdf8;      
+            --primary-glow: rgba(56, 189, 248, 0.4);
+            --hover-bg: #18181b;           
+            --code-bg: #09090b;            
+            --table-header-bg: #18181b;    
         }
 
         body {
             margin: 0;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
             color: var(--text-color);
             background-color: var(--bg-color);
+            /* Arka plana çok hafif derinlik katan ambiyans parlaması */
+            background-image: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.05), transparent 50%);
             display: flex;
             height: 100vh;
             overflow: hidden;
         }
 
-        /* Sidebar */
+        /* Sidebar - Glassmorphism Etkisi */
         .sidebar {
             width: 280px;
             min-width: 280px;
@@ -39,38 +43,43 @@
             display: flex;
             flex-direction: column;
             overflow-y: auto;
+            z-index: 10;
         }
 
         .sidebar-header {
-            padding: 20px;
+            padding: 24px 20px;
             border-bottom: 1px solid var(--border-color);
         }
         
         .sidebar-header h2 {
             margin: 0;
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             font-weight: 700;
             color: var(--text-color);
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+            letter-spacing: -0.02em;
         }
 
         .sidebar-nav {
-            padding: 15px 10px;
+            padding: 20px 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
         }
 
         .tab-link {
             display: block;
-            padding: 10px 15px;
-            margin-bottom: 5px;
+            padding: 12px 16px;
             color: var(--text-muted);
             text-decoration: none;
             font-size: 0.95rem;
-            border-radius: 6px;
+            font-weight: 500;
+            border-radius: 8px;
             cursor: pointer;
-            transition: all 0.2s;
-            border-left: 3px solid transparent;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
         }
 
         .tab-link:hover {
@@ -79,10 +88,10 @@
         }
 
         .tab-link.active {
-            background-color: rgba(88, 166, 255, 0.1);
+            background-color: rgba(56, 189, 248, 0.1);
             color: var(--primary-color);
-            font-weight: 600;
-            border-left: 3px solid var(--primary-color);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            box-shadow: inset 0 0 12px rgba(56, 189, 248, 0.05);
         }
 
         /* Main Area */
@@ -92,18 +101,21 @@
             flex-direction: column;
             overflow-y: auto;
             scroll-behavior: smooth;
+            position: relative;
         }
 
-        /* Topbar */
+        /* Topbar - Buzlu Cam Etkisi */
         .topbar {
-            height: 50px;
-            min-height: 50px;
+            height: 60px;
+            min-height: 60px;
             border-bottom: 1px solid var(--border-color);
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 24px;
-            background-color: var(--bg-color);
+            padding: 0 32px;
+            background-color: rgba(5, 5, 5, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             position: sticky;
             top: 0;
             z-index: 100;
@@ -112,31 +124,30 @@
         .breadcrumb {
             font-size: 0.85rem;
             color: var(--text-muted);
+            font-weight: 500;
         }
         
         .breadcrumb span {
-            font-weight: 600;
             color: var(--primary-color);
+            font-weight: 600;
         }
 
         .topbar-icons span {
-            margin-left: 15px;
+            margin-left: 20px;
             cursor: pointer;
             font-size: 1.1rem;
             color: var(--text-muted);
-            opacity: 0.7;
-            transition: opacity 0.2s;
+            transition: color 0.2s;
         }
 
         .topbar-icons span:hover {
-            opacity: 1;
             color: var(--primary-color);
         }
 
-        /* Content */
+        /* Content - Modern Kart Yapısı */
         .content {
-            padding: 40px;
-            max-width: 850px;
+            padding: 40px 32px;
+            max-width: 900px;
             margin: 0 auto;
             width: 100%;
         }
@@ -144,76 +155,159 @@
         .content a {
             color: var(--primary-color);
             text-decoration: none;
+            transition: text-shadow 0.2s;
         }
         
         .content a:hover {
-            text-decoration: underline;
+            text-shadow: 0 0 8px var(--primary-glow);
         }
 
-        .section { display: none; }
-        .section.active { display: block; animation: fadeIn 0.4s ease-out; }
+        .section { 
+            display: none; 
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 45px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+            margin-bottom: 40px;
+        }
+        
+        .section.active { 
+            display: block; 
+            animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1); 
+        }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        h1 { font-size: 2.2rem; font-weight: 800; color: #ffffff; margin-top: 0; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid var(--border-color); }
-        h3 { font-size: 1.3rem; font-weight: 600; color: #ffffff; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid var(--border-color); padding-bottom: 5px; }
-        p { line-height: 1.7; font-size: 1.05rem; margin-bottom: 16px; }
-        ul, ol { line-height: 1.7; font-size: 1.05rem; padding-left: 25px; margin-bottom: 16px; }
-        li { margin-bottom: 8px; }
+        /* Gelişmiş Tipografi */
+        h1 { 
+            font-size: 2.2rem; 
+            font-weight: 700; 
+            color: #ffffff; 
+            margin-top: 0; 
+            margin-bottom: 24px; 
+            letter-spacing: -0.03em;
+        }
         
-        /* Görseller */
+        h3 { 
+            font-size: 1.25rem; 
+            font-weight: 600; 
+            color: #ffffff; 
+            margin-top: 45px; 
+            margin-bottom: 16px; 
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+            letter-spacing: -0.01em;
+        }
+        
+        p { 
+            line-height: 1.8; 
+            font-size: 1.05rem; 
+            color: var(--text-muted);
+            margin-bottom: 16px; 
+        }
+        
+        ul, ol { 
+            line-height: 1.8; 
+            font-size: 1.05rem; 
+            color: var(--text-muted);
+            padding-left: 24px; 
+            margin-bottom: 16px; 
+        }
+        
+        li { margin-bottom: 8px; }
+        li strong { color: var(--text-color); }
+        
+        /* 1. İSTEĞİN: Şık Uyarı (Info) Kutusu */
+        .info-box-styled {
+            background: rgba(56, 189, 248, 0.05);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 24px 0;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .info-box-styled strong {
+            color: var(--primary-color);
+        }
+
+        /* Görseller - Hover Efekti */
         img { 
             max-width: 100%; 
             height: auto; 
-            border-radius: 8px; 
+            border-radius: 12px; 
             border: 1px solid var(--border-color); 
-            margin: 20px 0; 
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
-            opacity: 0.95; 
-            transition: 0.3s; 
+            margin: 24px 0; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
         }
-        img:hover { opacity: 1; box-shadow: 0 0 15px rgba(88,166,255,0.3); }
+        img:hover { 
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.6); 
+        }
 
-        /* Tables (Dark Mode Uyumu) */
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95rem; box-shadow: 0 4px 10px rgba(0,0,0,0.3); border-radius: 6px; overflow: hidden; }
-        th { background-color: var(--table-header-bg); font-weight: 600; text-align: left; padding: 12px; border: 1px solid var(--border-color); color: #ffffff; }
-        td { padding: 12px; border: 1px solid var(--border-color); }
-        tr { background-color: var(--sidebar-bg); }
-        tr:nth-child(even) { background-color: var(--hover-bg); }
+        /* Tables (Premium Dark Mode Uyumu) */
+        .scrollable-table-container {
+            max-height: 500px; 
+            overflow-y: auto; 
+            border: 1px solid var(--border-color); 
+            border-radius: 12px; 
+            margin: 24px 0;
+            background-color: var(--code-bg);
+            box-shadow: inset 0 2px 10px rgba(0,0,0,0.2);
+        }
 
-        /* Code Blocks & Raw Data Box */
+        table { 
+            width: 100%; 
+            border-collapse: separate; 
+            border-spacing: 0;
+            font-size: 0.9rem; 
+        }
+        
+        th { 
+            background-color: var(--table-header-bg); 
+            font-weight: 600; 
+            text-align: left; 
+            padding: 16px; 
+            color: var(--text-color); 
+            border-bottom: 1px solid var(--border-color);
+            position: sticky; 
+            top: 0; 
+            z-index: 10;
+        }
+        
+        td { 
+            padding: 14px 16px; 
+            border-bottom: 1px solid var(--border-color); 
+            color: var(--text-muted);
+        }
+        
+        tr:last-child td { border-bottom: none; }
+        
+        /* JS koduna gerek kalmadan CSS ile zebra ve hover efekti */
+        tbody tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.01); }
+        tr { transition: background-color 0.2s; }
+        tr:hover td { background-color: rgba(255,255,255,0.03); color: var(--text-color); }
+
+        /* Code Blocks */
         .code-block {
             background-color: var(--code-bg);
             border: 1px solid var(--border-color);
-            border-radius: 6px;
-            padding: 15px;
-            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+            border-radius: 12px;
+            padding: 20px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
             font-size: 0.9rem;
-            line-height: 1.5;
+            line-height: 1.6;
             overflow-x: auto;
-            margin: 20px 0;
-            color: #8b949e;
-        }
-        
-        .scrollable-table-container {
-            max-height: 400px; 
-            overflow-y: auto; 
-            border: 1px solid var(--border-color); 
-            border-radius: 6px; 
-            margin: 20px 0;
-            background-color: var(--sidebar-bg);
-        }
-
-        .info-box {
-            padding: 25px; 
-            text-align: center; 
-            color: var(--primary-color); 
-            font-style: italic; 
-            margin: 0; 
-            background-color: var(--code-bg);
+            margin: 24px 0;
+            color: #a1a1aa;
+            box-shadow: inset 0 2px 10px rgba(0,0,0,0.2);
         }
 
         .footer {
@@ -222,14 +316,14 @@
             color: var(--text-muted);
             font-size: 0.9rem;
             text-align: center;
-            padding: 20px 0 40px 0;
+            padding: 30px 0;
         }
 
         /* Scrollbar Özel Tasarım */
         ::-webkit-scrollbar { width: 8px; height: 8px; }
-        ::-webkit-scrollbar-track { background: var(--bg-color); }
-        ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #52525b; }
     </style>
 </head>
 <body>
@@ -407,18 +501,21 @@ final_df.to_csv('final_comprehensive_football_data.csv', index=False)
 print("Data collection and aggregation successfully completed.")</div>
 
                 <h3>Comprehensive Master Dataset Preview</h3>
-                <p>Below is the placeholder for the internal, mouse-scrollable view of the full compiled rows from the master time-series matrix.</p>
+                
+                <div class="info-box-styled">
+                    <strong>⚠️ Data Notice:</strong> The team names in the dynamically rendered table below may appear in shortened or numerical ID formats due to backend scraping and parsing conventions. For the fully formatted, original team name list, please refer to the raw <code>final_comprehensive_football_data.csv</code> file available in the repository.
+                </div>
                 
                 <div class="scrollable-table-container">
                     <table id="raw-data-table">
                         <thead>
                             <tr>
-                                <th style="position: sticky; top: 0; background-color: #21262d; text-align: center; z-index: 10; border: 1px solid #30363d; color: #ffffff; padding: 12px;">Year</th>
-                                <th style="position: sticky; top: 0; background-color: #21262d; z-index: 10; border: 1px solid #30363d; color: #ffffff; padding: 12px;">League</th>
-                                <th style="position: sticky; top: 0; background-color: #21262d; z-index: 10; border: 1px solid #30363d; color: #ffffff; padding: 12px;">Team Name</th>
-                                <th style="position: sticky; top: 0; background-color: #21262d; text-align: right; z-index: 10; border: 1px solid #30363d; color: #ffffff; padding: 12px;">Market Value (M€)</th>
-                                <th style="position: sticky; top: 0; background-color: #21262d; text-align: right; z-index: 10; border: 1px solid #30363d; color: #ffffff; padding: 12px;">Avg Attendance</th>
-                                <th style="position: sticky; top: 0; background-color: #21262d; text-align: right; z-index: 10; border: 1px solid #30363d; color: #ffffff; padding: 12px;">Google Interest</th>
+                                <th style="text-align: center;">Year</th>
+                                <th>League</th>
+                                <th>Team Name</th>
+                                <th style="text-align: right;">Market Value (M€)</th>
+                                <th style="text-align: right;">Avg Attendance</th>
+                                <th style="text-align: right;">Google Interest</th>
                             </tr>
                         </thead>
                         <tbody id="table-body">
@@ -579,18 +676,16 @@ print("Data collection and aggregation successfully completed.")</div>
                 const tbody = document.getElementById('table-body');
                 tbody.innerHTML = ''; // İçini temizle
                 
-                data.forEach((row, idx) => {
+                data.forEach((row) => {
                     const tr = document.createElement('tr');
-                    // Zebra çizgili karanlık mod tasarımı
-                    tr.style.backgroundColor = (idx % 2 === 1) ? '#21262d' : '#161b22';
                     
                     tr.innerHTML = `
-                        <td style="padding: 12px; border: 1px solid #30363d; text-align: center; color: #c9d1d9;">${row.year}</td>
-                        <td style="padding: 12px; border: 1px solid #30363d; color: #c9d1d9;">${row.league}</td>
-                        <td style="padding: 12px; border: 1px solid #30363d; color: #c9d1d9;">${row.team}</td>
-                        <td style="padding: 12px; border: 1px solid #30363d; text-align: right; color: #c9d1d9;">${row.mv.toFixed(2)}</td>
-                        <td style="padding: 12px; border: 1px solid #30363d; text-align: right; color: #c9d1d9;">${row.att.toLocaleString()}</td>
-                        <td style="padding: 12px; border: 1px solid #30363d; text-align: right; color: #c9d1d9;">${row.gi.toFixed(2)}</td>
+                        <td style="text-align: center;">${row.year}</td>
+                        <td>${row.league}</td>
+                        <td>${row.team}</td>
+                        <td style="text-align: right;">${row.mv.toFixed(2)}</td>
+                        <td style="text-align: right;">${row.att.toLocaleString()}</td>
+                        <td style="text-align: right;">${row.gi.toFixed(2)}</td>
                     `;
                     tbody.appendChild(tr);
                 });
