@@ -1,6 +1,8 @@
 # Competitive Balance and Fan Engagement in Football
 **DSA210 Term Project — Spring 2025-2026** *Created by Yusuf*
 
+https://yusufabdil03.github.io/DSA210_TermProject-2025-2026_Spring-/#references
+
 ---
 
 ## Overview
